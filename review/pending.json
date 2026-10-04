@@ -1,0 +1,2040 @@
+[
+  {
+    "id": "a95f01582526",
+    "status": "pending",
+    "title": "Department of Homeland Security changes Curricular Practical Training guidelines for international students - dailycampus.com",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNVkFleHVnS0V6aFVSUk9Kd2d4Vmx1ODg2Q1hSdm1IeWVvS0ZIV21PRHpDd283dWtnMnRfb1p5bXFxUmpSV2piNmREMlFYQ1g0QjRLcjR5WmJwREUxV3V1MzE4MGxtYW5UQVZkMVp6ejc3MDR4dG91QWM3b0Q0cTVkRlBoMVNSdmlRTkh0NTZXVjFBcTlZRXUwbjM1TzFBRXg4b2VXWFJ2WHc5bFRFX3k0WC1KWFRwSUt2d2VUa0VoQ0pGM25Dd3pPOVpLWkFkYVdWYXdCcjRnb2tzT2c?oc=5",
+    "outlet": "dailycampus.com",
+    "date": "Mon, 21 Sep 2026 10:00:00 GMT",
+    "suggested_label": "New rule change",
+    "label": "New rule change",
+    "official": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf",
+    "matched_rule": "(required (of|for) all students|integral part|elective|halts?|paus(e|es|ed|ing)|restrict|tighten|narrow|new federal (guidelines|rules|immigration rules)|guidelines|limit(s|ing)? internships|changes curricular|work authorization|eligibility criteria)",
+    "note": "",
+    "found": "2026-09-29",
+    "gemini": {
+      "claims": [],
+      "label": "New rule change",
+      "confidence": "low",
+      "reason": "The input only contains a headline reporting a change in Curricular Practical Training guidelines.",
+      "unverified_quotes": 0,
+      "usage": {
+        "promptTokenCount": 8412,
+        "candidatesTokenCount": 49,
+        "totalTokenCount": 8461,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 8412
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "headline"
+    }
+  },
+  {
+    "id": "d53f2b480346",
+    "status": "pending",
+    "title": "Senior international officer Heidi Arola explains new federal immigration rules - Purdue University",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNVVHQkhobkVZUUg3WEtqSDdrM2RqTUlvQXA4NVBrOEFHZ0g3ZEVoM2RONzJQdWcyMmR5a2Vtc0tNaExCd0dsU0t4Ykx4aEI3X3ZCX0hCZnNIeTVUZEZmTjluYmdzLVhjMXNmTl9Sb1Z2SW5TbU4zeC1LOVJCX1kwTmd0QnEwMXpSWXF6Y2puWE5KSEx3UXdMM0pmR0hUTmhDUlQwal9TZVpyYWhxUFg2VnFtajBDeGo1RXB3ZXp1RG5sMjExRnIzVzFVZw?oc=5",
+    "outlet": "Purdue University",
+    "date": "Wed, 16 Sep 2026 07:00:00 GMT",
+    "suggested_label": "Not covered",
+    "label": "Not covered",
+    "official": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf",
+    "matched_rule": "(required (of|for) all students|integral part|elective|halts?|paus(e|es|ed|ing)|restrict|tighten|narrow|new federal (guidelines|rules|immigration rules)|guidelines|limit(s|ing)? internships|changes curricular|work authorization|eligibility criteria)",
+    "note": "",
+    "found": "2026-09-29",
+    "gemini": {
+      "claims": [],
+      "label": "Not covered",
+      "confidence": "low",
+      "reason": "The provided article only contains a headline without text or factual claims about CPT.",
+      "unverified_quotes": 0,
+      "usage": {
+        "promptTokenCount": 8408,
+        "candidatesTokenCount": 48,
+        "totalTokenCount": 8456,
+        "cachedContentTokenCount": 3891,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 8408
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3891
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "headline"
+    }
+  },
+  {
+    "id": "9fde61a6c37d",
+    "status": "pending",
+    "title": "US colleges restrict internships as CPT rules tighten - The PIE News",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPdnUxU2NMQ3Y1bUVnZEVESnpoZFExQWdBSHpMWEhkdDZpYlFBcWs3T3Ywa3JPbkhiZFVxeXRqM0ZST2dGRlVaVHRpT3k3dDBmMHQwYS1iSjdOa0VTak5UZ0JkU2V0bzVhc2NlNWNubjlqYWdzU0NHbmctLTJJUlZKMHVLZw?oc=5",
+    "outlet": "The PIE News",
+    "date": "Tue, 15 Sep 2026 07:00:00 GMT",
+    "suggested_label": "Not covered",
+    "label": "Not covered",
+    "official": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf",
+    "matched_rule": "(required (of|for) all students|integral part|elective|halts?|paus(e|es|ed|ing)|restrict|tighten|narrow|new federal (guidelines|rules|immigration rules)|guidelines|limit(s|ing)? internships|changes curricular|work authorization|eligibility criteria)",
+    "note": "",
+    "found": "2026-09-29",
+    "gemini": {
+      "claims": [],
+      "label": "Not covered",
+      "confidence": "low",
+      "reason": "The article is only a headline and does not provide enough factual claims to evaluate against official sources.",
+      "unverified_quotes": 0,
+      "usage": {
+        "promptTokenCount": 8408,
+        "candidatesTokenCount": 51,
+        "totalTokenCount": 8459,
+        "cachedContentTokenCount": 3891,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 8408
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3891
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "headline"
+    }
+  },
+  {
+    "id": "d6b86a01d0a0",
+    "status": "pending",
+    "title": "International students face uncertainty after pause on federal work authorization - Daily Bruin",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYm54YlNQcURqdTFLOUdhdjNBR1RLd01zV3FEWTc4MGhLRHhrZ0R3OVFCUE1uLTJMZUQwU082cHMzOUFXUlRNa2RGcUpRRHF5blVQaXQ1TThJQl9WMkR2bFBNazA2N1JRRjlCeHAyWUJuNlFuNk1HZXdUdXB2bVc1V3NTR09mN25iVm5WZ0tWZk5FQnpMdGRoeS1pTjFVejdVLV81bUNlYUZPbG1yOEVPUkkxUWpzdw?oc=5",
+    "outlet": "Daily Bruin",
+    "date": "Sun, 20 Sep 2026 07:00:00 GMT",
+    "suggested_label": "Not covered",
+    "label": "Not covered",
+    "official": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf",
+    "matched_rule": "(required (of|for) all students|integral part|elective|halts?|paus(e|es|ed|ing)|restrict|tighten|narrow|new federal (guidelines|rules|immigration rules)|guidelines|limit(s|ing)? internships|changes curricular|work authorization|eligibility criteria)",
+    "note": "",
+    "found": "2026-09-29",
+    "gemini": {
+      "claims": [
+        {
+          "claim": "International students face uncertainty after pause on federal work authorization.",
+          "verdict": "not_covered",
+          "source": "none",
+          "official_quote": "",
+          "quote_verified": true
+        }
+      ],
+      "label": "Not covered",
+      "confidence": "low",
+      "reason": "The provided text only contains a headline, which is insufficient to verify specific claims against the official sources.",
+      "unverified_quotes": 0,
+      "usage": {
+        "promptTokenCount": 8407,
+        "candidatesTokenCount": 106,
+        "totalTokenCount": 8513,
+        "cachedContentTokenCount": 3891,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 8407
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3891
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "headline"
+    }
+  },
+  {
+    "id": "b415cebab678",
+    "status": "pending",
+    "title": "New federal guidelines limit internships, work opportunities for international students - dailycardinal.com",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQkhUUEZEOEFieFJaVENwTDFGYmgxNlp5eFBFaHIzVHdZVm0xRTR3RzhPeWhma1ZnNzZENlJid011T1JHb3Y5eEZMbW1lbzJQNGVLSURJeWV5aG5Halh6dW5EMWNKOWQ3dmtSVHVfcjRnZm5jNlNWN3JETERiR0dnWUNJVE1xandiUFMtSTludVZyUlFxTEhsQlNKNHk0N25LeUZaZ2hUZjVGY3hJSXFGNW5GVUxNcWlSYzhFVGpVRjlZNDNTbGFqcjlKcjg?oc=5",
+    "outlet": "dailycardinal.com",
+    "date": "Thu, 24 Sep 2026 11:00:00 GMT",
+    "suggested_label": "Not covered",
+    "label": "Not covered",
+    "official": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf",
+    "matched_rule": "(required (of|for) all students|integral part|elective|halts?|paus(e|es|ed|ing)|restrict|tighten|narrow|new federal (guidelines|rules|immigration rules)|guidelines|limit(s|ing)? internships|changes curricular|work authorization|eligibility criteria)",
+    "note": "",
+    "found": "2026-09-29",
+    "gemini": {
+      "claims": [],
+      "label": "Not covered",
+      "confidence": "low",
+      "reason": "The article only provides a headline without any verifiable claims in the text.",
+      "unverified_quotes": 0,
+      "usage": {
+        "promptTokenCount": 8412,
+        "candidatesTokenCount": 46,
+        "totalTokenCount": 8458,
+        "cachedContentTokenCount": 3891,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 8412
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3891
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "headline"
+    }
+  },
+  {
+    "id": "4322d814115f",
+    "status": "pending",
+    "title": "Internship restrictions hurt all of us - Yale Daily News",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5HaV91aGR5akZhMTdQLUM3VkQ5QlJpcjJ0QkVFZ1Z3WHFoQURBaGRURWVDLW9jbFp5VkVJSXQxMnZiQVRHcHhWMzN3VjltTy1fZFZWTzMxNkMyeUxfeWd2ZFJ4SGVFR09ZRF85SllZay10MmVWRy1sZ0VYbmFYZw?oc=5",
+    "outlet": "Yale Daily News",
+    "date": "Fri, 25 Sep 2026 10:36:37 GMT",
+    "suggested_label": "Not covered",
+    "label": "Not covered",
+    "official": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf",
+    "matched_rule": "(required (of|for) all students|integral part|elective|halts?|paus(e|es|ed|ing)|restrict|tighten|narrow|new federal (guidelines|rules|immigration rules)|guidelines|limit(s|ing)? internships|changes curricular|work authorization|eligibility criteria)",
+    "note": "",
+    "found": "2026-09-29",
+    "gemini": {
+      "claims": [],
+      "label": "Not covered",
+      "confidence": "low",
+      "reason": "The article is represented only by a headline, so no specific factual claims can be fact-checked against the official sources.",
+      "unverified_quotes": 0,
+      "usage": {
+        "promptTokenCount": 8403,
+        "candidatesTokenCount": 56,
+        "totalTokenCount": 8459,
+        "cachedContentTokenCount": 3891,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 8403
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3891
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "headline"
+    }
+  },
+  {
+    "id": "c9bb4b0ca6dc",
+    "status": "pending",
+    "title": "Cornell Announces Tighter Temporary Work Eligibility Criteria for Some International Students Following Messages From ICE - The Cornell Daily Sun",
+    "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPeEY3OXhJM1NFckU2V21GQXhtUnZEd3o2YUFMOUNqaTI5R19fMXZYR05RQVFYNjZCWUVrUW5tWHhGa0Z3N3dDU2JVSEg3enFRMG1qemtmenZVSnBUcGRJc0VqbXV5WWNvYm1vVVVnSzhnYzBfcmZ3a1VEcVlmRU1ManhySDZCSEdxWTNKLUpVSkVBLXF2Z3J6NzZWWXlON1lDUWpEcW1hemVabGtiNHZLTi03aVRLdGh4aWExTkFENkVmZ3VsMDd0Rl9YNGs2eXk0aTZpNVlhWXpJYkpOdWZhMm9Wd0tKNXJvVW9QTmJsdkNMMEdiOTFj?oc=5",
+    "outlet": "The Cornell Daily Sun",
+    "date": "Thu, 24 Sep 2026 05:27:04 GMT",
+    "suggested_label": "Not covered",
+    "label": "Not covered",
+    "official": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf",
+    "matched_rule": "(required (of|for) all students|integral part|elective|halts?|paus(e|es|ed|ing)|restrict|tighten|narrow|new federal (guidelines|rules|immigration rules)|guidelines|limit(s|ing)? internships|changes curricular|work authorization|eligibility criteria)",
+    "note": "",
+    "found": "2026-09-29",
+    "gemini": {
+      "claims": [
+        {
+          "claim": "Cornell announced tighter temporary work eligibility criteria for international students following messages from ICE",
+          "verdict": "not_covered",
+          "source": "none",
+          "official_quote": "",
+          "quote_verified": true
+        }
+      ],
+      "label": "Not covered",
+      "confidence": "low",
+      "reason": "Only the headline is available and official sources do not mention specific university announcements.",
+      "unverified_quotes": 0,
+      "usage": {
+        "promptTokenCount": 8415,
+        "candidatesTokenCount": 104,
+        "totalTokenCount": 8519,
+        "cachedContentTokenCount": 3892,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 8415
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3892
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "headline"
+    }
+  },
+  {
+    "id": "3b5a9475840c",
+    "status": "pending",
+    "title": "Wellesley pauses off-campus work authorization for international students - The Wellesley News",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNd3VQa3ZTYzNIWU1rb0JjeHctSzZhMWFoUjJPTDVfNV9wNjJaeThtZXNpMlh3X3g1d2dqSVlXaVJ4QkZ6bW1Hcm5ydGJUYlh6azlJWWJmbG9FZVV3eW8tLXR2bVh5Tk1xWnJJcmhfOUJfN1ZISTNOOGdnOEswN3FJemx6emhJMkJkR0VkVXlqUktCRGwxdlR5RGhDcnFBamphVm9Fd0ZmMU95MGppOVZTaFZzVXhuYWRjMVFJbk85YlNKLU5iUVlV?oc=5",
+    "outlet": "The Wellesley News",
+    "date": "Tue, 29 Sep 2026 03:08:08 GMT",
+    "suggested_label": "Not covered",
+    "label": "Not covered",
+    "official": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf",
+    "matched_rule": "(required (of|for) all students|integral part|elective|halts?|paus(e|es|ed|ing)|restrict|tighten|narrow|new federal (guidelines|rules|immigration rules)|guidelines|limit(s|ing)? internships|changes curricular|work authorization|eligibility criteria)",
+    "note": "",
+    "found": "2026-09-29",
+    "gemini": {
+      "claims": [
+        {
+          "claim": "Wellesley pauses off-campus work authorization for international students",
+          "verdict": "not_covered",
+          "source": "none",
+          "official_quote": "",
+          "quote_verified": true
+        }
+      ],
+      "label": "Not covered",
+      "confidence": "low",
+      "reason": "The provided sources do not mention Wellesley College or any specific institutional policy pauses.",
+      "unverified_quotes": 0,
+      "usage": {
+        "promptTokenCount": 8407,
+        "candidatesTokenCount": 102,
+        "totalTokenCount": 8509,
+        "cachedContentTokenCount": 3891,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 8407
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3891
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "headline"
+    }
+  },
+  {
+    "id": "81128346debe",
+    "status": "pending",
+    "title": "Federal internship restrictions hit Macalester - The Mac Weekly",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQWlhTVDBHeGxNU3NJS1J6dkFidy0zRXFCTXBfdlB5cnBlNHh4cDY3T2l2WHV5bXUwTzR2TlRLRFZ0MFBITVN0NDlzem91MUNnUjkwUG5Vb2RkaEtEd0kzbVJWdmV6Z0RCel84OXFqNFVVQkkxYm5yR1E4VlZudU5NNERtV3pxSGc?oc=5",
+    "outlet": "The Mac Weekly",
+    "date": "Thu, 24 Sep 2026 19:51:34 GMT",
+    "suggested_label": "Not covered",
+    "label": "Not covered",
+    "official": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf",
+    "matched_rule": "(required (of|for) all students|integral part|elective|halts?|paus(e|es|ed|ing)|restrict|tighten|narrow|new federal (guidelines|rules|immigration rules)|guidelines|limit(s|ing)? internships|changes curricular|work authorization|eligibility criteria)",
+    "note": "",
+    "found": "2026-09-29",
+    "gemini": {
+      "claims": [],
+      "label": "Not covered",
+      "confidence": "low",
+      "reason": "The article only provides a headline mentioning internship restrictions at Macalester without any specific factual claims to verify against the official sources.",
+      "unverified_quotes": 0,
+      "usage": {
+        "promptTokenCount": 8404,
+        "candidatesTokenCount": 57,
+        "totalTokenCount": 8461,
+        "cachedContentTokenCount": 3891,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 8404
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3891
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "headline"
+    }
+  },
+  {
+    "id": "706e3afc2e50",
+    "status": "pending",
+    "title": "DHS Guidelines Force Wesleyan to Restrict International Students Work Off-Campus - The Wesleyan Argus",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNUNOUG1lTHdjUVotUllhYUk3SVZfN3Zxc2M5NWlrXzMxMUYtM21PUTlfcXNjRWZldE5ETFlZMjNHa1J4ZmZhdzRQRUhNZEZtN3lIcF9CVzNIQXlFbjIzQXROSXc5eWJtdTJpaE5CMzVIeXZ6SnVaS3RQakM4aXdvaGxXQWk0S213T0MyTlU0SXo0cEZhS1ZFYUpGekxSa2I4UGV5SFFZaGtoSUZmY1B0U1R2VVptRXFEZkE?oc=5",
+    "outlet": "The Wesleyan Argus",
+    "date": "Fri, 18 Sep 2026 07:00:00 GMT",
+    "suggested_label": "Not covered",
+    "label": "Not covered",
+    "official": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf",
+    "matched_rule": "(required (of|for) all students|integral part|elective|halts?|paus(e|es|ed|ing)|restrict|tighten|narrow|new federal (guidelines|rules|immigration rules)|guidelines|limit(s|ing)? internships|changes curricular|work authorization|eligibility criteria)",
+    "note": "",
+    "found": "2026-09-29",
+    "gemini": {
+      "claims": [
+        {
+          "claim": "DHS Guidelines Force Wesleyan to Restrict International Students Work Off-Campus",
+          "verdict": "not_covered",
+          "source": "none",
+          "official_quote": "",
+          "quote_verified": true
+        }
+      ],
+      "label": "Not covered",
+      "confidence": "low",
+      "reason": "The provided text only contains a headline and does not provide enough information to verify the claims against official sources.",
+      "unverified_quotes": 0,
+      "usage": {
+        "promptTokenCount": 8412,
+        "candidatesTokenCount": 110,
+        "totalTokenCount": 8522,
+        "cachedContentTokenCount": 3891,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 8412
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3891
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "headline"
+    }
+  },
+  {
+    "id": "6249ceb226ec",
+    "status": "pending",
+    "title": "UC Berkeley student denied UCDC internship after ICE threatens campus over CPT - dailycal.org",
+    "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOVmNpaVBkRDBhd3RuRER1QWlPbWpSRVNqekctTlBDREYtSlJJRE9PMENPOTZwc1FzSUV1QVFiN0FZazZvVjBrMEptbDZxUl9iMldvaHprZDZSWEY5a0NaektkUGFKUjFmUVUtY2NNcndrNjFNdmszdUUzdkxITE9kLWFMbHdlLXhFcnRXZXp1dlJiOVVERGVoOWxKYUgycWoyNTdCcDdtMWFnbjViZ0hpdG5Cd3p6UjBoSURkdmRwMXpkR1BtbEVCYjVVNHRZaWRIRllQT2NFc2hOZk90MExlWkMxTjdvbDd1aTA3TV9pUXBpb2M?oc=5",
+    "outlet": "dailycal.org",
+    "date": "Mon, 28 Sep 2026 12:00:00 GMT",
+    "suggested_label": "Not covered",
+    "label": "Not covered",
+    "official": "https://www.nafsa.org/regulatory-information/8cfr2142f",
+    "matched_rule": null,
+    "note": "",
+    "found": "2026-09-29",
+    "gemini": {
+      "claims": [],
+      "label": "Not covered",
+      "confidence": "low",
+      "reason": "Only the headline is available, so the specific factual claims cannot be verified against the official sources.",
+      "unverified_quotes": 0,
+      "usage": {
+        "promptTokenCount": 8413,
+        "candidatesTokenCount": 51,
+        "totalTokenCount": 8464,
+        "cachedContentTokenCount": 3891,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 8413
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3891
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "headline"
+    }
+  },
+  {
+    "id": "11b0d5eadb57",
+    "status": "pending",
+    "title": "International Students Face \u2018Terrible\u2019 National Changes Limiting Internships - Albion Pleiad",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTUZIbXJ2X3V1NVVaeVhlUFN2alVXbnFib0VRYW1ULUJ1d1ZrZVRRZVJtYlpIQ2RpOUlkbnpkeW1UcmFBY3hPczBMYWg1bjlLMmxMMjNraFB2MmMxdVFsZ1BKSzJnNW5pZTlPVzZFVEMzRlQ3NEFWaWFiOXJfZ0Y0U3hHU2EtU1pEV0lfQWhoRmxTMmFKTjVtMDdUZlNIeDZLdVN6c0VMQnR4Q08x?oc=5",
+    "outlet": "Albion Pleiad",
+    "date": "Fri, 25 Sep 2026 19:58:10 GMT",
+    "suggested_label": "Not covered",
+    "label": "Not covered",
+    "official": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf",
+    "matched_rule": "(required (of|for) all students|integral part|elective|halts?|paus(e|es|ed|ing)|restrict|tighten|narrow|new federal (guidelines|rules|immigration rules)|guidelines|limit(s|ing)? internships|changes curricular|work authorization|eligibility criteria)",
+    "note": "",
+    "found": "2026-09-29",
+    "gemini": {
+      "claims": [
+        {
+          "claim": "International students face terrible national changes limiting internships",
+          "verdict": "not_covered",
+          "source": "none",
+          "official_quote": "",
+          "quote_verified": true
+        }
+      ],
+      "label": "Not covered",
+      "confidence": "low",
+      "reason": "Only the headline is available, which does not provide enough specific details to verify against the official sources.",
+      "unverified_quotes": 0,
+      "usage": {
+        "promptTokenCount": 8411,
+        "candidatesTokenCount": 103,
+        "totalTokenCount": 8514,
+        "cachedContentTokenCount": 3891,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 8411
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3891
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "headline"
+    }
+  },
+  {
+    "id": "3a18605a250e",
+    "status": "pending",
+    "title": "Rosenbury, Walkowitz address Barnard debt, international student protections, AI usage in roundtable discussion - Columbia Daily Spectator",
+    "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOSUk1c2hIcjVrMDNZZzQyM01aczFaYm5wcTVWVVhBa0N0YktBOVVSalc0MmVlWjl5R0FnT3dqMFgzUlMzekNaU3hBOEJ4T3R6cWlvN0JtdXdhOXBiT1I3blhjMF9aYW1LMmc2eW9sejhyeE1PVEtFTHhpUmJhRzlick9VOEVYNXdqeGYtU29EWm1VSFQ5MlI3bmljZ0tLZkxXamx6cFVaYVZHdUNQdVUzTlh1dC0tWkY4TkF6Z2pHZWhYdWtzcWt1YzctQUZ0TXp5TXNNMndnOEkyckJqVjYzSHRSb1BYbHBVMWJTVmNCVmQ?oc=5",
+    "outlet": "Columbia Daily Spectator",
+    "date": "Wed, 23 Sep 2026 03:50:20 GMT",
+    "suggested_label": "Not covered",
+    "label": "Not covered",
+    "official": "https://www.nafsa.org/regulatory-information/8cfr2142f",
+    "matched_rule": null,
+    "note": "",
+    "found": "2026-09-29",
+    "gemini": {
+      "claims": [],
+      "label": "Not covered",
+      "confidence": "low",
+      "reason": "The provided article only contains a headline mentioning international student protections without providing any specific factual claims about CPT rules.",
+      "unverified_quotes": 0,
+      "usage": {
+        "promptTokenCount": 8417,
+        "candidatesTokenCount": 54,
+        "totalTokenCount": 8471,
+        "cachedContentTokenCount": 3892,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 8417
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3892
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "headline"
+    }
+  },
+  {
+    "id": "5b0cc90ef8af",
+    "status": "pending",
+    "title": "A federal immigration rules change has galvanized some UH international students - Currently.com",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOS3N2dFdWcVhQNUJROFB4ZjN2aEI1aU9fZ1ZJeDhpYWRmUllZdVpGRG1mQkNLM2FFTUZUR1c0VkZ3emZ1RmIwS2VHRVo2clQ5dXZSUW1MLWFVTFBFdkRkb0VGdGFzSzA4RTdoM3pXSXY1QldXNUc3cml4S2dtc2RaV3JQTU9GVHBXNmgyNXhybk5uVUhEZHhvX2l3?oc=5",
+    "outlet": "Currently.com",
+    "date": "Mon, 21 Sep 2026 10:33:00 GMT",
+    "suggested_label": "Not covered",
+    "label": "Not covered",
+    "official": "https://www.nafsa.org/regulatory-information/8cfr2142f",
+    "matched_rule": null,
+    "note": "",
+    "found": "2026-09-29",
+    "gemini": {
+      "claims": [],
+      "label": "Not covered",
+      "confidence": "low",
+      "reason": "The article is only represented by a headline, so no specific factual claims about CPT rules can be evaluated against the official sources.",
+      "unverified_quotes": 0,
+      "usage": {
+        "promptTokenCount": 8408,
+        "candidatesTokenCount": 58,
+        "totalTokenCount": 8466,
+        "cachedContentTokenCount": 3891,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 8408
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3891
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "headline"
+    }
+  },
+  {
+    "id": "d2e575b21d23",
+    "status": "pending",
+    "title": "\u2018American jobs can be for American students\u2019: Yale columnist - The College Fix",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQd0RwVjR4czhBQ0I4TFVsTmRrazE3bXhhcjZQZVJTRnhlX0lnaDV2U1BZdXR1b0V1RVdwaVVFdWVKLThoVEJsQlRIbFJiWHM2QkNlN3JhU3VKTExGeDNQbDZ0Qmc2clVPeTZyZU9ub04tZUlwYVJiMkR1dUxSanItSV9fZDNoYWJDVG1wZGR4RnQ0dTFjaEVwaEpJMzZOaUVjU0toVGRn?oc=5",
+    "outlet": "The College Fix",
+    "date": "Thu, 24 Sep 2026 12:10:25 GMT",
+    "suggested_label": "Not covered",
+    "label": "Not covered",
+    "official": "https://www.nafsa.org/regulatory-information/8cfr2142f",
+    "matched_rule": null,
+    "note": "",
+    "found": "2026-09-29",
+    "gemini": {
+      "claims": [],
+      "label": "Not covered",
+      "confidence": "low",
+      "reason": "Only the headline is available, so no factual claims can be verified against official sources.",
+      "unverified_quotes": 0,
+      "usage": {
+        "promptTokenCount": 8408,
+        "candidatesTokenCount": 49,
+        "totalTokenCount": 8457,
+        "cachedContentTokenCount": 3891,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 8408
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3891
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "headline"
+    }
+  },
+  {
+    "id": "8410f3840381",
+    "status": "pending",
+    "title": "Cornell University tightens CPT rules for some international students; here's what Indians need to know | Hindustan Times - Hindustan Times",
+    "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPdmxzblJ1YVNDZmFaR0lqN05QNXdyVXhwQkhJRDRpZS05YlV0Uk8yNnlMcmZQYlVhOFFUUl9QTDQ4QXZEendHYmhWamh2UzZTSWk5dFRILUxZX2ZOaXFVX0NOZ2FGc2FPam55clJGQlpsWTBuMUVNTHBYbUd5WnJzZjJxUDNuSXktcjl2WFVJLVNMTjB1TGdtYTA2MklOMHJTUjExQ2dCN0VucWQxZnlHdHZIVnJZUEdfajZLeUljOUJiU0pFRTQ5LUgwMTJIZGJKbTV1d3VwODFvc1BHM2NvY3Y5cXNZWm5wNGh2a2ln0gHzAUFVX3lxTE42dFVSbXpnM1VDb1p2Z2RUNlZvYkQ1SzNmbHpoeENGYTRvYld2eW5XWUpoNGhocWlxTXItQm1CcWJYRGZfNTA0YUlDNUw0ZXBKUDdoYy1TWV84a0ZvUFV0SHZZeXB5SzhOaExuOU1IU2xWTE9YS3B2VEw1eVRCYWFnZTV6X2pqUVdadnlHUjJMVjd6TV9YY0pKZG4wTlJndDNjY29XaFhmNm1pTEo0bkYzbEtpNHM1eTUyeWpFdEVaQ0lTcjgzUkFHQ2ltRl96c09LbWRUb2h2U2dCNlk2bkdVZ01YUHRYN18zLWRtVFRGekU4MA?oc=5",
+    "outlet": "Hindustan Times",
+    "date": "Fri, 25 Sep 2026 08:06:46 GMT",
+    "suggested_label": "Not covered",
+    "label": "Not covered",
+    "official": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf",
+    "matched_rule": "(required (of|for) all students|integral part|elective|halts?|paus(e|es|ed|ing)|restrict|tighten|narrow|new federal (guidelines|rules|immigration rules)|guidelines|limit(s|ing)? internships|changes curricular|work authorization|eligibility criteria)",
+    "note": "",
+    "found": "2026-09-29",
+    "gemini": {
+      "claims": [],
+      "label": "Not covered",
+      "confidence": "low",
+      "reason": "The article only consists of a headline regarding Cornell University tightening CPT rules and does not contain enough detailed factual claims to verify against official sources.",
+      "unverified_quotes": 0,
+      "usage": {
+        "promptTokenCount": 8420,
+        "candidatesTokenCount": 60,
+        "totalTokenCount": 8480,
+        "cachedContentTokenCount": 3892,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 8420
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3892
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "headline"
+    }
+  },
+  {
+    "id": "97932f4f0924",
+    "status": "pending",
+    "title": "GoElite Participates in Open Atlas Summit, Which Provides F-1 Students with Guidance on OPT and CPT - openPR.com",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMDR1MzlqRk1XREZSUlF3S1FVYWxSTXNBbkpKOUVQS2ROckdhSmpOWW5DVHJUTDJNYXQ1SHNSQzFaOUk4RDJJRDhFaFRONTZ0N25ENEdUTDg1bkVRQzh3TF9mS05iNThXY3JVQkNfRUp2VjJpTWNNcGxObzN2bWRCMmZVNU1CcldRWUZmQlJ6LVBBblFnN014UzBKdUE?oc=5",
+    "outlet": "openPR.com",
+    "date": "Thu, 24 Sep 2026 10:10:06 GMT",
+    "suggested_label": "Not covered",
+    "label": "Not covered",
+    "official": "https://www.nafsa.org/regulatory-information/8cfr2142f",
+    "matched_rule": null,
+    "note": "",
+    "found": "2026-09-29",
+    "gemini": {
+      "claims": [],
+      "label": "Not covered",
+      "confidence": "low",
+      "reason": "The article is only a headline mentioning participation in a summit and does not provide specific factual claims about CPT rules.",
+      "unverified_quotes": 0,
+      "usage": {
+        "promptTokenCount": 8421,
+        "candidatesTokenCount": 55,
+        "totalTokenCount": 8476,
+        "cachedContentTokenCount": 3892,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 8421
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3892
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "headline"
+    }
+  },
+  {
+    "id": "9dbfbb27c30c",
+    "status": "pending",
+    "title": "Establishing a Fixed Time Period of Admission and an Extension of Stay Procedure for Nonimmigrant Academic Students, Exchange Visitors, and Representatives of Foreign Information Media",
+    "url": "https://www.federalregister.gov/documents/2026/07/17/2026-14439/establishing-a-fixed-time-period-of-admission-and-an-extension-of-stay-procedure-for-nonimmigrant",
+    "outlet": "Federal Register",
+    "date": "2026-07-17",
+    "suggested_label": "Not covered",
+    "label": "Not covered",
+    "official": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf",
+    "matched_rule": "(broadcast message|new (federal )?guidance|final rule|proposed rule|interim rule|federal register|sevp (issued|guidance))",
+    "note": "",
+    "found": "2026-09-29",
+    "gemini": {
+      "claims": [],
+      "label": "Not covered",
+      "confidence": "low",
+      "reason": "Only the headline is available and it does not contain sufficient details about CPT rules to fact-check specific claims.",
+      "unverified_quotes": 0,
+      "usage": {
+        "promptTokenCount": 8421,
+        "candidatesTokenCount": 55,
+        "totalTokenCount": 8476,
+        "cachedContentTokenCount": 3892,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 8421
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3892
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "headline"
+    }
+  },
+  {
+    "id": "d860188694ed",
+    "status": "pending",
+    "title": "Curricular Practical Training: What International Students Should Know",
+    "url": "https://www.yahoo.com/news/curricular-practical-training-international-students-know-161809183.html",
+    "outlet": "Yahoo",
+    "date": "Tue, 21 May 2019 09:18:00 GMT",
+    "suggested_label": "Matches official rule",
+    "label": "Matches official rule",
+    "official": "https://www.nafsa.org/regulatory-information/8cfr2142f",
+    "matched_rule": null,
+    "note": "",
+    "found": "2026-10-04",
+    "gemini": {
+      "claims": [
+        {
+          "claim": "F-1 undergraduate students are eligible for CPT after being enrolled full-time for one full academic year.",
+          "verdict": "matches",
+          "source": "pm",
+          "official_quote": "Practical training (PT) may be authorized for an F-1 student at a U.S. Immigration and Customs Enforcement (ICE) Student and Exchange Visitor Program (SEVP)-certified college, university, conservatory, or seminary, who has been lawfully enrolled, full-time, for one full academic year.",
+          "quote_verified": false,
+          "url": "https://www.uscis.gov/policy-manual/volume-2-part-f-chapter-5"
+        },
+        {
+          "claim": "The one-year requirement does not apply to graduate students whose graduate program requires immediate participation in CPT.",
+          "verdict": "matches",
+          "source": "reg",
+          "official_quote": "Exceptions to the one academic year requirement are provided for students enrolled in graduate studies that require immediate participation in curricular practical training.",
+          "quote_verified": true,
+          "url": "https://www.nafsa.org/regulatory-information/8cfr2142f"
+        },
+        {
+          "claim": "If students use a total of 12 months or more of full-time CPT, they become ineligible for post-completion OPT.",
+          "verdict": "matches",
+          "source": "pm",
+          "official_quote": "An F-1 student who has received 1 year or more of full-time CPT is ineligible for post-completion OPT at the same educational level.",
+          "quote_verified": true,
+          "url": "https://www.uscis.gov/policy-manual/volume-2-part-f-chapter-5"
+        }
+      ],
+      "label": "Matches official rule",
+      "confidence": "medium",
+      "reason": "The factual claims made in the article regarding F-1 CPT eligibility, exceptions, and the impact on OPT are fully supported by official USCIS and federal regulation sources.",
+      "unverified_quotes": 1,
+      "usage": {
+        "promptTokenCount": 9536,
+        "candidatesTokenCount": 370,
+        "totalTokenCount": 9906,
+        "cachedContentTokenCount": 3914,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 9536
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3914
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "article"
+    }
+  },
+  {
+    "id": "881f232d78c5",
+    "status": "pending",
+    "title": "Penn resumes Curricular Practical Training review for federally-compliant international students",
+    "url": "https://www.thedp.com/article/2026/09/penn-curricular-practical-training-authorization-international-trump",
+    "outlet": "The Daily Pennsylvanian",
+    "date": "Fri, 05 Sep 2025 17:00:00 GMT",
+    "suggested_label": "Matches official rule",
+    "label": "Matches official rule",
+    "official": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf",
+    "matched_rule": "(required (of|for) all students|integral part|elective|halts?|paus(e|es|ed|ing)|restrict|tighten|narrow|new federal (guidelines|rules|immigration rules)|guidelines|limit(s|ing)? internships|changes curricular|work authorization|eligibility criteria)",
+    "note": "",
+    "found": "2026-10-04",
+    "gemini": {
+      "claims": [
+        {
+          "claim": "Curricular Practical Training allows international students to work off campus while seeking a bachelor's degree.",
+          "verdict": "not_covered",
+          "source": "none",
+          "official_quote": "",
+          "quote_verified": true
+        },
+        {
+          "claim": "According to SEVP's Aug. 24 memo, CPT is permitted only where the training is an integral part of an established curriculum.",
+          "verdict": "matches",
+          "source": "bcm",
+          "official_quote": "permitted only where the training is an integral part of an established curriculum.",
+          "quote_verified": false,
+          "url": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf"
+        },
+        {
+          "claim": "CPT requires a written cooperative agreement with the employer.",
+          "verdict": "matches",
+          "source": "bcm",
+          "official_quote": "Must all CPT be conducted by sponsoring employers that have established cooperative agreements with the school?",
+          "quote_verified": true,
+          "url": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf"
+        }
+      ],
+      "label": "Matches official rule",
+      "confidence": "medium",
+      "reason": "The factual claims made about CPT requirements in the article match the provided SEVP broadcast message source.",
+      "unverified_quotes": 1,
+      "usage": {
+        "promptTokenCount": 9538,
+        "candidatesTokenCount": 263,
+        "totalTokenCount": 9801,
+        "cachedContentTokenCount": 3914,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 9538
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3914
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "article"
+    }
+  },
+  {
+    "id": "7958167ca601",
+    "status": "pending",
+    "title": "Curricular Practical Training (CPT): A Guide for Faculty and Staff",
+    "url": "https://www.bu.edu/isso/bu-admin/curricular-practical-training-cpt-a-guide-for-faculty-and-staff/",
+    "outlet": "Boston University",
+    "date": "Fri, 31 Jul 2026 11:12:00 GMT",
+    "suggested_label": "Matches official rule",
+    "label": "Matches official rule",
+    "official": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf",
+    "matched_rule": "(required (of|for) all students|integral part|elective|halts?|paus(e|es|ed|ing)|restrict|tighten|narrow|new federal (guidelines|rules|immigration rules)|guidelines|limit(s|ing)? internships|changes curricular|work authorization|eligibility criteria)",
+    "note": "",
+    "found": "2026-10-04",
+    "gemini": {
+      "claims": [
+        {
+          "claim": "Curricular Practical Training (CPT) is employment authorization available when practical experience is an integral part of the academic program.",
+          "verdict": "matches",
+          "source": "reg",
+          "official_quote": "An F-1 student may be authorized by the DSO to participate in a curricular practical training program that is an integral part of an established curriculum.",
+          "quote_verified": true,
+          "url": "https://www.nafsa.org/regulatory-information/8cfr2142f"
+        },
+        {
+          "claim": "Students must receive CPT authorization from their DSO before they begin their practical training.",
+          "verdict": "matches",
+          "source": "reg",
+          "official_quote": "A student may begin curricular practical training only after receiving their Form I-20 or successor form with the DSO endorsement.",
+          "quote_verified": true,
+          "url": "https://www.nafsa.org/regulatory-information/8cfr2142f"
+        },
+        {
+          "claim": "CPT cannot be used when practical training is merely desirable for resume building rather than required for the program.",
+          "verdict": "matches",
+          "source": "bcm",
+          "official_quote": "In any instance where an elective course is optional, making the CPT optional, the integral and required aspects of CPT would not be met.",
+          "quote_verified": true,
+          "url": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf"
+        },
+        {
+          "claim": "To be integral to an academic program, the experiential learning requirement must apply to all students regardless of citizenship or immigration status.",
+          "verdict": "matches",
+          "source": "bcm",
+          "official_quote": "CPT is an integral part of an established curriculum, and the practical training is required for all students participating in that curriculum, regardless of citizenship.",
+          "quote_verified": true,
+          "url": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf"
+        }
+      ],
+      "label": "Matches official rule",
+      "confidence": "high",
+      "reason": "The article accurately reflects the official CPT regulations and recent SEVP guidance regarding integral and mandatory curriculum requirements.",
+      "unverified_quotes": 0,
+      "usage": {
+        "promptTokenCount": 9414,
+        "candidatesTokenCount": 403,
+        "totalTokenCount": 9817,
+        "cachedContentTokenCount": 3912,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 9414
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3912
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "article"
+    }
+  },
+  {
+    "id": "07fa682267de",
+    "status": "pending",
+    "title": "Curricular Practical Training (CPT)",
+    "url": "https://www.scu.edu/bulletin/graduate/leavey-school-of-business/chapter-5/curricular-practical-training-cpt--optional-practical-training-opt.html?c=1758712552",
+    "outlet": "Santa Clara University",
+    "date": "Sun, 28 Sep 2025 21:32:00 GMT",
+    "suggested_label": "Not covered",
+    "label": "Not covered",
+    "official": "https://www.nafsa.org/regulatory-information/8cfr2142f",
+    "matched_rule": null,
+    "note": "",
+    "found": "2026-10-04",
+    "gemini": {
+      "claims": [],
+      "label": "Not covered",
+      "confidence": "low",
+      "reason": "The article only contains a headline and does not provide any factual claims about CPT rules.",
+      "unverified_quotes": 0,
+      "usage": {
+        "promptTokenCount": 8401,
+        "candidatesTokenCount": 50,
+        "totalTokenCount": 8451,
+        "cachedContentTokenCount": 3891,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 8401
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3891
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "headline"
+    }
+  },
+  {
+    "id": "72109c0a8e6d",
+    "status": "pending",
+    "title": "Curricular Practical Training (CPT) Authorization in 9 Steps!",
+    "url": "https://www.colorado.edu/isss/2022/11/17/curricular-practical-training-cpt-authorization-9-steps",
+    "outlet": "CU Boulder News &amp; Events",
+    "date": "Wed, 16 Nov 2022 16:01:00 GMT",
+    "suggested_label": "Matches official rule",
+    "label": "Matches official rule",
+    "official": "https://www.nafsa.org/regulatory-information/8cfr2142f",
+    "matched_rule": null,
+    "note": "",
+    "found": "2026-10-04",
+    "gemini": {
+      "claims": [
+        {
+          "claim": "Curricular Practical Training is a benefit for international students in F-1 status allowing temporary training authorization for alternative work/study, internships, cooperative education, or required internships or practicums offered by sponsoring employers through cooperative agreements with the school.",
+          "verdict": "matches",
+          "source": "pm",
+          "official_quote": "CPT is alternative work-study, cooperative education, or any other type of required internship or practicum that is offered by sponsoring employers through cooperative agreements with the school.",
+          "quote_verified": true,
+          "url": "https://www.uscis.gov/policy-manual/volume-2-part-f-chapter-5"
+        }
+      ],
+      "label": "Matches official rule",
+      "confidence": "high",
+      "reason": "The article's definition of Curricular Practical Training directly matches the official definitions in USCIS policy and federal regulations.",
+      "unverified_quotes": 0,
+      "usage": {
+        "promptTokenCount": 8628,
+        "candidatesTokenCount": 177,
+        "totalTokenCount": 8805,
+        "cachedContentTokenCount": 3896,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 8628
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3896
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "article"
+    }
+  },
+  {
+    "id": "6e81dafb7793",
+    "status": "pending",
+    "title": "Curricular Practical Training",
+    "url": "https://www.moreheadstate.edu/admissions/international-student-services/cpt",
+    "outlet": "Morehead State University",
+    "date": "Tue, 20 Sep 2022 16:45:00 GMT",
+    "suggested_label": "Matches official rule",
+    "label": "Matches official rule",
+    "official": "https://www.nafsa.org/regulatory-information/8cfr2142f",
+    "matched_rule": null,
+    "note": "",
+    "found": "2026-10-04",
+    "gemini": {
+      "claims": [
+        {
+          "claim": "The student must have been enrolled for one full academic year, with an exception for graduate students whose curriculum requires immediate CPT.",
+          "verdict": "matches",
+          "source": "reg",
+          "official_quote": "Exceptions to the one academic year requirement are provided for students enrolled in graduate studies that require immediate participation in curricular practical training.",
+          "quote_verified": true,
+          "url": "https://www.nafsa.org/regulatory-information/8cfr2142f"
+        },
+        {
+          "claim": "Students may engage in CPT only for the specific employer, location and period approved and recorded by the DSO, in SEVIS.",
+          "verdict": "matches",
+          "source": "reg",
+          "official_quote": "To grant authorization for a student to engage in curricular practical training, a DSO will update the student's record in SEVIS as being authorized for curricular practical training that is directly related to the student's major area of study. The DSO will indicate whether the training is full-time or part-time, the employer and location, and the employment start and end date.",
+          "quote_verified": true,
+          "url": "https://www.nafsa.org/regulatory-information/8cfr2142f"
+        },
+        {
+          "claim": "Students can be approved for part-time or full-time work.",
+          "verdict": "matches",
+          "source": "pm",
+          "official_quote": "CPT may be part-time or full-time.",
+          "quote_verified": true,
+          "url": "https://www.uscis.gov/policy-manual/volume-2-part-f-chapter-5"
+        },
+        {
+          "claim": "Please do not engage in off-campus employment during the summer or anytime while you are a student at MSU.",
+          "verdict": "not_covered",
+          "source": "none",
+          "official_quote": "",
+          "quote_verified": true
+        }
+      ],
+      "label": "Matches official rule",
+      "confidence": "high",
+      "reason": "The article's key claims regarding CPT eligibility preconditions, DSO approval parameters, and work-time options match federal regulations and official policy manuals.",
+      "unverified_quotes": 0,
+      "usage": {
+        "promptTokenCount": 8950,
+        "candidatesTokenCount": 413,
+        "totalTokenCount": 9363,
+        "cachedContentTokenCount": 3903,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 8950
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3903
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "article"
+    }
+  },
+  {
+    "id": "16511c94c105",
+    "status": "pending",
+    "title": "US CPT Crackdown: Why international students may lose internship options",
+    "url": "https://www.financialexpress.com/immigration/us-cpt-under-scrutiny-why-universities-are-restricting-student-internships/4352392/",
+    "outlet": "The Financial Express",
+    "date": "Fri, 02 Oct 2026 04:30:00 GMT",
+    "suggested_label": "Matches official rule",
+    "label": "Matches official rule",
+    "official": "https://www.nafsa.org/regulatory-information/8cfr2142f",
+    "matched_rule": null,
+    "note": "",
+    "found": "2026-10-04",
+    "gemini": {
+      "claims": [
+        {
+          "claim": "CPT can be authorized only when practical training is required for all students in a program to earn the degree, excluding optional internships.",
+          "verdict": "matches",
+          "source": "bcm",
+          "official_quote": "CPT is an integral part of an established curriculum, and the practical training is required for all students participating in that curriculum, regardless of citizenship.",
+          "quote_verified": true,
+          "url": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf"
+        },
+        {
+          "claim": "No USCIS application or Employment Authorization Document is needed for CPT, but students must get authorization from their DSO.",
+          "verdict": "matches",
+          "source": "pm",
+          "official_quote": "No application to USCIS for employment authorization or an Employment Authorization Document (EAD) (Form I-766) is required, but the student must request authorization for CPT from the student\u2019s Designated School Official (DSO).",
+          "quote_verified": true,
+          "url": "https://www.uscis.gov/policy-manual/volume-2-part-f-chapter-5"
+        },
+        {
+          "claim": "To qualify for CPT, a student must have completed one full academic year and be lawfully enrolled full-time at an approved ICE SEVP-certified school.",
+          "verdict": "matches",
+          "source": "pm",
+          "official_quote": "To participate in CPT, students must: Have completed one full academic year and be lawfully enrolled on a full-time basis at an approved ICE SEVP-certified school",
+          "quote_verified": true,
+          "url": "https://www.uscis.gov/policy-manual/volume-2-part-f-chapter-5"
+        },
+        {
+          "claim": "SEVP sent a Broadcast Message in August reminding DSOs of their responsibilities regarding CPT authorization and flagging increased oversight.",
+          "verdict": "matches",
+          "source": "bcm",
+          "official_quote": "On August 12, 2026, the Student and Exchange Visitor Program (SEVP) issued Broadcast Message 2608-01. This broadcast informed all Designated School Officials (DSOs) that SEVP has observed a rise in Curricular Practical Training (CPT) authorizations that appear to violate regulatory requirements",
+          "quote_verified": true,
+          "url": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf"
+        }
+      ],
+      "label": "Matches official rule",
+      "confidence": "high",
+      "reason": "The article's claims about CPT requirements, DSO authorization, and recent SEVP guidance accurately reflect the provided official sources.",
+      "unverified_quotes": 0,
+      "usage": {
+        "promptTokenCount": 9551,
+        "candidatesTokenCount": 498,
+        "totalTokenCount": 10049,
+        "cachedContentTokenCount": 3915,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 9551
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3915
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "article"
+    }
+  },
+  {
+    "id": "fb1378f9ba86",
+    "status": "pending",
+    "title": "US universities tighten CPT approvals after SEVP guidance",
+    "url": "https://kenya-today.com/report-us-universities-tighten-cpt-approvals-after-sevp-guidance-5990/",
+    "outlet": "Kenya Today",
+    "date": "Fri, 02 Oct 2026 20:38:00 GMT",
+    "suggested_label": "Not covered",
+    "label": "Not covered",
+    "official": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf",
+    "matched_rule": "(broadcast message|new (federal )?guidance|final rule|proposed rule|interim rule|federal register|sevp (issued|guidance))",
+    "note": "",
+    "found": "2026-10-04",
+    "gemini": {
+      "claims": [],
+      "label": "Not covered",
+      "confidence": "low",
+      "reason": "The article only consists of a headline, so no specific factual claims can be verified against the official sources.",
+      "unverified_quotes": 0,
+      "usage": {
+        "promptTokenCount": 8402,
+        "candidatesTokenCount": 53,
+        "totalTokenCount": 8455,
+        "cachedContentTokenCount": 3891,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 8402
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3891
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "headline"
+    }
+  },
+  {
+    "id": "1e69c7ae20e1",
+    "status": "pending",
+    "title": "US Tightens Scrutiny Of F-1 Student Work Rules? SEVP Warns Over CPT; UC Berkeley, UC Davis Pause Credit Course Applications",
+    "url": "https://www.freepressjournal.in/education/us-tightens-scrutiny-of-f-1-student-work-rules-sevp-warns-over-cpt-uc-berkeley-uc-davis-pause-credit-course-applications",
+    "outlet": "Free Press Journal",
+    "date": "Thu, 27 Aug 2026 04:14:00 GMT",
+    "suggested_label": "Matches official rule",
+    "label": "Matches official rule",
+    "official": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf",
+    "matched_rule": "(required (of|for) all students|integral part|elective|halts?|paus(e|es|ed|ing)|restrict|tighten|narrow|new federal (guidelines|rules|immigration rules)|guidelines|limit(s|ing)? internships|changes curricular|work authorization|eligibility criteria)",
+    "note": "",
+    "found": "2026-10-04",
+    "gemini": {
+      "claims": [
+        {
+          "claim": "SEVP issued a broadcast message warning universities and DSOs against improperly authorizing CPT for F-1 students.",
+          "verdict": "matches",
+          "source": "bcm",
+          "official_quote": "On August 12, 2026, the Student and Exchange Visitor Program (SEVP) issued Broadcast Message 2608-01. This broadcast informed all Designated School Officials (DSOs) that SEVP has observed a rise in Curricular Practical Training (CPT) authorizations that appear to violate regulatory requirements",
+          "quote_verified": true,
+          "url": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf"
+        },
+        {
+          "claim": "CPT must be an integral and required part of an established curriculum rather than optional.",
+          "verdict": "matches",
+          "source": "bcm",
+          "official_quote": "In any instance where an elective course is optional, making the CPT optional, the integral and required aspects of CPT would not be met. CPT is an integral part of an established curriculum, and the practical training is required for all students participating in that curriculum",
+          "quote_verified": true,
+          "url": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf"
+        },
+        {
+          "claim": "Failure to comply with SEVP regulations may result in an institution losing certification to enroll foreign students.",
+          "verdict": "matches",
+          "source": "bcm",
+          "official_quote": "Failure to comply with SEVP regulations may result in an institution losing certification to enroll foreign students.",
+          "quote_verified": true,
+          "url": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf"
+        },
+        {
+          "claim": "The SEVP response center provides a confidential tipline for DSOs to report pressure to make noncompliant decisions.",
+          "verdict": "matches",
+          "source": "bcm",
+          "official_quote": "The new SEVP tipline serves as a confidential avenue for you to relay these concerns for further review by SEVP and Homeland Security Investigations (HSI).",
+          "quote_verified": true,
+          "url": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf"
+        }
+      ],
+      "label": "Matches official rule",
+      "confidence": "high",
+      "reason": "The article's claims about SEVP's broadcast message, CPT requirements, and potential institutional sanctions are fully supported by official SEVP guidance.",
+      "unverified_quotes": 0,
+      "usage": {
+        "promptTokenCount": 9530,
+        "candidatesTokenCount": 470,
+        "totalTokenCount": 10000,
+        "cachedContentTokenCount": 3914,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 9530
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3914
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "article"
+    }
+  },
+  {
+    "id": "db916b9d5ff9",
+    "status": "pending",
+    "title": "Indian students on CPT now at risk of losing status over school\u2019s mistake \u2013 Attorney explains SEVP crackdown",
+    "url": "https://www.financialexpress.com/immigration/indian-students-on-cpt-now-at-risk-of-losing-status-over-schools-mistake-attorney-explains-sevp-crackdown/4319731/",
+    "outlet": "The Financial Express",
+    "date": "Wed, 19 Aug 2026 19:18:00 GMT",
+    "suggested_label": "Matches official rule",
+    "label": "Matches official rule",
+    "official": "https://www.nafsa.org/regulatory-information/8cfr2142f",
+    "matched_rule": null,
+    "note": "",
+    "found": "2026-10-04",
+    "gemini": {
+      "claims": [
+        {
+          "claim": "SEVP sent a Broadcast Message on August 12 reminding colleges that CPT must be an integral part of an established curriculum and warning that schools misusing the program could lose certification.",
+          "verdict": "matches",
+          "source": "bcm",
+          "official_quote": "On August 12, 2026, the Student and Exchange Visitor Program (SEVP) issued Broadcast Message 2608-01. This broadcast informed all Designated School Officials (DSOs) that SEVP has observed a rise in Curricular Practical Training (CPT) authorizations that appear to violate regulatory requirements which permit CPT only where the training is an integral part of an established curriculum.",
+          "quote_verified": true,
+          "url": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf"
+        },
+        {
+          "claim": "An F-1 student who has received 1 year or more of full-time CPT is ineligible for post-completion OPT at the same educational level.",
+          "verdict": "matches",
+          "source": "pm",
+          "official_quote": "An F-1 student who has received 1 year or more of full-time CPT is ineligible for post-completion OPT at the same educational level.",
+          "quote_verified": true,
+          "url": "https://www.uscis.gov/policy-manual/volume-2-part-f-chapter-5"
+        },
+        {
+          "claim": "Curricular practical training occurs before the student's program end date on the Form I-20 and can be part-time or full-time.",
+          "verdict": "matches",
+          "source": "pm",
+          "official_quote": "CPT occurs before the student\u2019s program end date on the Certificate of Eligibility for Nonimmigrant Student Status (Form I-20). CPT may be part-time or full-time.",
+          "quote_verified": true,
+          "url": "https://www.uscis.gov/policy-manual/volume-2-part-f-chapter-5"
+        },
+        {
+          "claim": "No application to USCIS for employment authorization or an EAD is required for CPT, but the student must request authorization from their DSO.",
+          "verdict": "matches",
+          "source": "pm",
+          "official_quote": "No application to USCIS for employment authorization or an Employment Authorization Document (EAD) (Form I-766) is required, but the student must request authorization for CPT from the student\u2019s Designated School Official (DSO).",
+          "quote_verified": true,
+          "url": "https://www.uscis.gov/policy-manual/volume-2-part-f-chapter-5"
+        }
+      ],
+      "label": "Matches official rule",
+      "confidence": "high",
+      "reason": "The factual claims made in the article regarding CPT requirements, consequences for schools, and rules on full-time CPT impacting OPT are fully supported by the official sources.",
+      "unverified_quotes": 0,
+      "usage": {
+        "promptTokenCount": 9601,
+        "candidatesTokenCount": 554,
+        "totalTokenCount": 10155,
+        "cachedContentTokenCount": 3916,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 9601
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3916
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "article"
+    }
+  },
+  {
+    "id": "e164d34f6342",
+    "status": "pending",
+    "title": "International students\u2019 US internships at risk? Trump tightens rules, warns universities about violations",
+    "url": "https://www.hindustantimes.com/nri/international-students-us-internships-at-risk-trump-tightens-rules-warns-universities-about-violations-101788070740398.html",
+    "outlet": "Hindustan Times",
+    "date": "Sun, 30 Aug 2026 00:51:00 GMT",
+    "suggested_label": "Matches official rule",
+    "label": "Matches official rule",
+    "official": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf",
+    "matched_rule": "(required (of|for) all students|integral part|elective|halts?|paus(e|es|ed|ing)|restrict|tighten|narrow|new federal (guidelines|rules|immigration rules)|guidelines|limit(s|ing)? internships|changes curricular|work authorization|eligibility criteria)",
+    "note": "",
+    "found": "2026-10-04",
+    "gemini": {
+      "claims": [
+        {
+          "claim": "A federal memo issued on August 24 by the Student and Exchange Visitor Program (SEVP) warned colleges about a rise in CPT authorizations appearing to violate existing requirements.",
+          "verdict": "matches",
+          "source": "bcm",
+          "official_quote": "On August 12, 2026, the Student and Exchange Visitor Program (SEVP) issued Broadcast Message 2608-01. This broadcast informed all Designated School Officials (DSOs) that SEVP has observed a rise in Curricular Practical Training (CPT) authorizations that appear to violate regulatory requirements",
+          "quote_verified": true,
+          "url": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf"
+        },
+        {
+          "claim": "Failure to comply with SEVP regulations regarding CPT could result in an institution losing its certification to enroll foreign students.",
+          "verdict": "matches",
+          "source": "bcm",
+          "official_quote": "Failure to comply with SEVP regulations may result in an institution losing certification to enroll foreign students.",
+          "quote_verified": true,
+          "url": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf"
+        },
+        {
+          "claim": "CPT allows eligible F-1 students to take part in practical training, including internships, when the training is an integral part of an established curriculum.",
+          "verdict": "matches",
+          "source": "bcm",
+          "official_quote": "A foreign student may be authorized by a DSO to participate in a CPT program that is an integral part of an established curriculum.",
+          "quote_verified": true,
+          "url": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf"
+        }
+      ],
+      "label": "Matches official rule",
+      "confidence": "high",
+      "reason": "The article's claims about the SEVP broadcast message and CPT regulations directly match the provided official source text.",
+      "unverified_quotes": 0,
+      "usage": {
+        "promptTokenCount": 9466,
+        "candidatesTokenCount": 375,
+        "totalTokenCount": 9841,
+        "cachedContentTokenCount": 3913,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 9466
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3913
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "article"
+    }
+  },
+  {
+    "id": "805d057ba4e8",
+    "status": "pending",
+    "title": "Trump Admin steps up scrutiny of CPT for international students, warns colleges over misuse",
+    "url": "https://www.msn.com/en-in/money/general/trump-admin-steps-up-scrutiny-of-cpt-for-international-students-warns-colleges-over-misuse/ar-AA2a1h9m",
+    "outlet": "MSN",
+    "date": "Thu, 13 Aug 2026 03:10:00 GMT",
+    "suggested_label": "Not covered",
+    "label": "Not covered",
+    "official": "https://www.nafsa.org/regulatory-information/8cfr2142f",
+    "matched_rule": null,
+    "note": "",
+    "found": "2026-10-04",
+    "gemini": {
+      "claims": [],
+      "label": "Not covered",
+      "confidence": "low",
+      "reason": "The article only consists of a headline without any specific factual claims to verify against official sources.",
+      "unverified_quotes": 0,
+      "usage": {
+        "promptTokenCount": 8408,
+        "candidatesTokenCount": 50,
+        "totalTokenCount": 8458,
+        "cachedContentTokenCount": 3891,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 8408
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3891
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "headline"
+    }
+  },
+  {
+    "id": "1f8bb559abee",
+    "status": "pending",
+    "title": "US tightens work rules for foreign students: What changes for CPT, OPT and H-1B?",
+    "url": "https://indianexpress.com/article/education/usa-trump-administration-tightens-work-rules-international-students-what-changes-cpt-opt-h-1b-applicants-10854492/",
+    "outlet": "The Indian Express",
+    "date": "Sat, 29 Aug 2026 21:24:00 GMT",
+    "suggested_label": "New rule change",
+    "label": "New rule change",
+    "official": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf",
+    "matched_rule": "(required (of|for) all students|integral part|elective|halts?|paus(e|es|ed|ing)|restrict|tighten|narrow|new federal (guidelines|rules|immigration rules)|guidelines|limit(s|ing)? internships|changes curricular|work authorization|eligibility criteria)",
+    "note": "",
+    "found": "2026-10-04",
+    "gemini": {
+      "claims": [
+        {
+          "claim": "A federal memo issued on August 24 warned US universities over the use of Curricular Practical Training (CPT).",
+          "verdict": "matches",
+          "source": "bcm",
+          "official_quote": "On August 12, 2026, the Student and Exchange Visitor Program (SEVP) issued Broadcast Message 2608-01. This broadcast informed all Designated School Officials (DSOs) that SEVP has observed a rise in Curricular Practical Training (CPT) authorizations that appear to violate regulatory requirements",
+          "quote_verified": true,
+          "url": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf"
+        },
+        {
+          "claim": "Universities that do not comply with federal requirements could risk losing their certification to enrol international students.",
+          "verdict": "matches",
+          "source": "bcm",
+          "official_quote": "Failure to comply with SEVP regulations may result in an institution losing certification to enroll foreign students.",
+          "quote_verified": true,
+          "url": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf"
+        },
+        {
+          "claim": "CPT is a work authorisation that allows F-1 international students to undertake internships, practicums and other training linked to their academic programme.",
+          "verdict": "matches",
+          "source": "bcm",
+          "official_quote": "A foreign student may be authorized by a DSO to participate in a CPT program that is an integral part of an established curriculum. Curricular practical training is defined as alternative work/study, internship, cooperative education or any other type of required internship or practicum",
+          "quote_verified": true,
+          "url": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf"
+        }
+      ],
+      "label": "New rule change",
+      "confidence": "high",
+      "reason": "The article reports on the August 24, 2026 SEVP Broadcast Message regarding CPT enforcement and university compliance.",
+      "unverified_quotes": 0,
+      "usage": {
+        "promptTokenCount": 9670,
+        "candidatesTokenCount": 391,
+        "totalTokenCount": 10061,
+        "cachedContentTokenCount": 3917,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 9670
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3917
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "article"
+    }
+  },
+  {
+    "id": "dce0f4ecfccd",
+    "status": "pending",
+    "title": "US universities rethink CPT program after ICE warning: What Indian students need to know about the pause",
+    "url": "https://www.hindustantimes.com/nri/us-universities-rethink-cpt-program-after-ice-warning-what-indian-students-need-to-know-about-the-pause-101787714522318.html",
+    "outlet": "Hindustan Times",
+    "date": "Tue, 25 Aug 2026 20:43:00 GMT",
+    "suggested_label": "Matches official rule",
+    "label": "Matches official rule",
+    "official": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf",
+    "matched_rule": "(required (of|for) all students|integral part|elective|halts?|paus(e|es|ed|ing)|restrict|tighten|narrow|new federal (guidelines|rules|immigration rules)|guidelines|limit(s|ing)? internships|changes curricular|work authorization|eligibility criteria)",
+    "note": "",
+    "found": "2026-10-04",
+    "gemini": {
+      "claims": [
+        {
+          "claim": "The memo regarding CPT was introduced on August 12 by US Immigration and Customs Enforcement (ICE).",
+          "verdict": "matches",
+          "source": "bcm",
+          "official_quote": "On August 12, 2026, the Student and Exchange Visitor Program (SEVP) issued Broadcast Message 2608-01.",
+          "quote_verified": true,
+          "url": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf"
+        },
+        {
+          "claim": "Federal rules require CPT to be an integral part of an established curriculum and directly related to the student's major.",
+          "verdict": "matches",
+          "source": "reg",
+          "official_quote": "An F-1 student may be authorized by the DSO to participate in a curricular practical training program that is an integral part of an established curriculum.",
+          "quote_verified": true,
+          "url": "https://www.nafsa.org/regulatory-information/8cfr2142f"
+        },
+        {
+          "claim": "CPT is authorized through the university's Designated School Official rather than through a separate USCIS EAD application.",
+          "verdict": "matches",
+          "source": "pm",
+          "official_quote": "No application to USCIS for employment authorization or an Employment Authorization Document (EAD) (Form I-766) is required, but the student must request authorization for CPT from the student\u2019s Designated School Official (DSO).",
+          "quote_verified": true,
+          "url": "https://www.uscis.gov/policy-manual/volume-2-part-f-chapter-5"
+        }
+      ],
+      "label": "Matches official rule",
+      "confidence": "high",
+      "reason": "The article accurately reflects official SEVP broadcast messages and regulations regarding CPT requirements and DSO authorization.",
+      "unverified_quotes": 0,
+      "usage": {
+        "promptTokenCount": 9471,
+        "candidatesTokenCount": 348,
+        "totalTokenCount": 9819,
+        "cachedContentTokenCount": 3913,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 9471
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3913
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "article"
+    }
+  },
+  {
+    "id": "09692a06b9c1",
+    "status": "pending",
+    "title": "New Visa and CPT Restrictions Threaten International Students - The Amherst Student",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPX041RkZvUkJoYmNoYU9WaFlscTh6RzhpbllPNW4zVGhLWGxCYjE2YnNOcDBDVDhZYmlPSXkyakVPNDFuM202TnJHQUdrTGlPRi01Q2EzOFJrbnZhTVFzM2VKM1B6bWFNN0F3c0FobV84RF94MXpKNXJ5YkQxdzl5dGwycHVfSkM3aGJKanJqU3lsemdaWDA2VmY1VVdrUQ?oc=5",
+    "outlet": "The Amherst Student",
+    "date": "Wed, 30 Sep 2026 06:49:05 GMT",
+    "suggested_label": "Not covered",
+    "label": "Not covered",
+    "official": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf",
+    "matched_rule": "(required (of|for) all students|integral part|elective|halts?|paus(e|es|ed|ing)|restrict|tighten|narrow|new federal (guidelines|rules|immigration rules)|guidelines|limit(s|ing)? internships|changes curricular|work authorization|eligibility criteria)",
+    "note": "",
+    "found": "2026-10-04",
+    "gemini": {
+      "claims": [],
+      "label": "Not covered",
+      "confidence": "low",
+      "reason": "The article only provides a headline without any specific factual claims to fact-check.",
+      "unverified_quotes": 0,
+      "usage": {
+        "promptTokenCount": 8407,
+        "candidatesTokenCount": 48,
+        "totalTokenCount": 8455,
+        "cachedContentTokenCount": 3891,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 8407
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3891
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "headline"
+    }
+  },
+  {
+    "id": "749bb1571a8d",
+    "status": "pending",
+    "title": "New CPT rules threaten the future of international students at Brandeis - thejustice.org",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQU0JEZmR1RUFXM042dkN4M3Z2Zk9wWUs2REpnMzZtRGd5Rk9VQ3F0V0I5b1VxTmFVbnAwaVVmc1RIZm1uT2J5cmFuOERPS2s2aTJ0aFdhTzlVOUJwQm8tMERYSVR2RzhmeFRzSGttNC1DN3VvT3FxWjYyN1VkUHNlVjRWb1FwV3hCcnhOeXRCeTF1aVd5WGE3WGY1TmRtSXQxZm91SmprQnNsZS1XOVduREFtYVI?oc=5",
+    "outlet": "thejustice.org",
+    "date": "Tue, 29 Sep 2026 10:01:53 GMT",
+    "suggested_label": "Not covered",
+    "label": "Not covered",
+    "official": "https://www.nafsa.org/regulatory-information/8cfr2142f",
+    "matched_rule": null,
+    "note": "",
+    "found": "2026-10-04",
+    "gemini": {
+      "claims": [],
+      "label": "Not covered",
+      "confidence": "low",
+      "reason": "The article only provides a headline mentioning new CPT rules and does not contain specific factual claims to check against the sources.",
+      "unverified_quotes": 0,
+      "usage": {
+        "promptTokenCount": 8413,
+        "candidatesTokenCount": 56,
+        "totalTokenCount": 8469,
+        "cachedContentTokenCount": 3891,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 8413
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3891
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "headline"
+    }
+  },
+  {
+    "id": "e92405712d95",
+    "status": "pending",
+    "title": "USF international students affected as ICE tightens CPT approvals - usforacle.com",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOUEpCYlU3N0t6ZkdOVndUNEltOW5VZ0dmb05sYmlVRURuOEI0ZjJTbGZTcTRQSFotNEtzUDg5a042Vm5hX1NCQ21pV3JHcTFYQWRYd1Bjb0R0SzhoRkFEYmVYREtUM0l6S3ZpcEpId1ZqeXBOeVFxRklRc0pSRjRvYm1vd2pzVm9GV1FlemI1WFE0bExlQnc?oc=5",
+    "outlet": "usforacle.com",
+    "date": "Tue, 29 Sep 2026 19:54:57 GMT",
+    "suggested_label": "Matches official rule",
+    "label": "Matches official rule",
+    "official": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf",
+    "matched_rule": "(required (of|for) all students|integral part|elective|halts?|paus(e|es|ed|ing)|restrict|tighten|narrow|new federal (guidelines|rules|immigration rules)|guidelines|limit(s|ing)? internships|changes curricular|work authorization|eligibility criteria)",
+    "note": "",
+    "found": "2026-10-04",
+    "gemini": {
+      "claims": [
+        {
+          "claim": "ICE is tightening CPT approvals for international students.",
+          "verdict": "matches",
+          "source": "bcm",
+          "official_quote": "SEVP has observed a rise in Curricular Practical Training (CPT) authorizations that appear to violate regulatory requirements",
+          "quote_verified": true,
+          "url": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf"
+        }
+      ],
+      "label": "Matches official rule",
+      "confidence": "low",
+      "reason": "The headline matches the official SEVP broadcast message concerning the tightening and review of CPT authorizations, but only a headline was available.",
+      "unverified_quotes": 0,
+      "usage": {
+        "promptTokenCount": 8413,
+        "candidatesTokenCount": 133,
+        "totalTokenCount": 8546,
+        "cachedContentTokenCount": 3891,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 8413
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3891
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "headline"
+    }
+  },
+  {
+    "id": "09fb146b2bb8",
+    "status": "pending",
+    "title": "Proposed work authorization fee could disrupt international student career pipeline, Penn experts warn - The Daily Pennsylvanian",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPS1V3dERETDFOSkxnUGZLb2F0LVZuQ2p3WjBJUnpBN0RvXzZfYnR3WmZVTGlmUzdfRGV3ZnpFVlBybVpZNlo4aVhJbXRrbTVDSWxMb1gxZkhwb2dfWHVvMEs5eGkzSDJnYk5aU2ZyenRTVDJWcXNTQjAxN1g0cjdsaVY1TTdJMklrZ05UUzZEVG92Ymk1OTRHR3B0cDN2V3JKeVBIYmYzbw?oc=5",
+    "outlet": "The Daily Pennsylvanian",
+    "date": "Sat, 26 Sep 2026 07:00:00 GMT",
+    "suggested_label": "Not covered",
+    "label": "Not covered",
+    "official": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf",
+    "matched_rule": "(required (of|for) all students|integral part|elective|halts?|paus(e|es|ed|ing)|restrict|tighten|narrow|new federal (guidelines|rules|immigration rules)|guidelines|limit(s|ing)? internships|changes curricular|work authorization|eligibility criteria)",
+    "note": "",
+    "found": "2026-10-04",
+    "gemini": {
+      "claims": [
+        {
+          "claim": "The news article discusses a proposed work authorization fee that could disrupt the international student career pipeline.",
+          "verdict": "not_covered",
+          "source": "none",
+          "official_quote": "",
+          "quote_verified": true
+        }
+      ],
+      "label": "Not covered",
+      "confidence": "low",
+      "reason": "The provided sources do not mention any proposed work authorization fees for international students.",
+      "unverified_quotes": 0,
+      "usage": {
+        "promptTokenCount": 8417,
+        "candidatesTokenCount": 107,
+        "totalTokenCount": 8524,
+        "cachedContentTokenCount": 3892,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 8417
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3892
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "headline"
+    }
+  },
+  {
+    "id": "0b89e5a462cc",
+    "status": "pending",
+    "title": "MIT pauses authorization of work-study credit programs for international students - The Tech",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5rTkJpQTdkZEdZN1MwMVAyZF9WNDNRczdMWkZ0UjlwazhxTXlybWVGdmMxTFJjQ0pjMWIzMEp5dGdXQ2lmSjhBMlFjalowOF9iSjYzZTZYQks?oc=5",
+    "outlet": "The Tech",
+    "date": "Thu, 01 Oct 2026 05:56:21 GMT",
+    "suggested_label": "Not covered",
+    "label": "Not covered",
+    "official": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf",
+    "matched_rule": "(required (of|for) all students|integral part|elective|halts?|paus(e|es|ed|ing)|restrict|tighten|narrow|new federal (guidelines|rules|immigration rules)|guidelines|limit(s|ing)? internships|changes curricular|work authorization|eligibility criteria)",
+    "note": "",
+    "found": "2026-10-04",
+    "gemini": {
+      "claims": [
+        {
+          "claim": "MIT pauses authorization of work-study credit programs for international students",
+          "verdict": "not_covered",
+          "source": "none",
+          "official_quote": "",
+          "quote_verified": true
+        }
+      ],
+      "label": "Not covered",
+      "confidence": "low",
+      "reason": "The provided text only contains a headline without details about MIT pausing work-study credit programs.",
+      "unverified_quotes": 0,
+      "usage": {
+        "promptTokenCount": 8407,
+        "candidatesTokenCount": 106,
+        "totalTokenCount": 8513,
+        "cachedContentTokenCount": 3891,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 8407
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3891
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "headline"
+    }
+  },
+  {
+    "id": "ae7b99999b91",
+    "status": "pending",
+    "title": "ICE is targeting international students. UCLA must support them - Daily Bruin",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZW9WbzRKSWJOdmJwZnlzU19WWkw5YWREbUJVS2xHWjlIaktYejNmUXJPbGRMRjBZVXBWQk4wdExaZVdaNmdXOHZuajdMeldFb2FFQUFFNTItUUxyZWRQVTRWb2RLdjgzSm45YkpXcVF3TG1kZjFEekwtXzJjV2ptVC13NDRKSUIxX2JzeFZUcEJHdUhsdGs4V2Z0Z1k?oc=5",
+    "outlet": "Daily Bruin",
+    "date": "Thu, 01 Oct 2026 00:32:00 GMT",
+    "suggested_label": "Not covered",
+    "label": "Not covered",
+    "official": "https://www.nafsa.org/regulatory-information/8cfr2142f",
+    "matched_rule": null,
+    "note": "",
+    "found": "2026-10-04",
+    "gemini": {
+      "claims": [],
+      "label": "Not covered",
+      "confidence": "low",
+      "reason": "The article is only represented by a headline and contains no specific factual claims about CPT rules to fact-check.",
+      "unverified_quotes": 0,
+      "usage": {
+        "promptTokenCount": 8407,
+        "candidatesTokenCount": 55,
+        "totalTokenCount": 8462,
+        "cachedContentTokenCount": 3891,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 8407
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3891
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "headline"
+    }
+  },
+  {
+    "id": "83b3994ca301",
+    "status": "pending",
+    "title": "American jobs can be for international students - Yale Daily News",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOelpxWjMxUUdXYi04Y05rZmUyN3hWalFwd2QwTGlZcGJBMDVpTHRyMUFxTjhXQkxCRWhPaWtpZmQxaEIyQ0ItenN2UjVIejdVMjIyWEU0NHZqc0tnSFJXaFRVYzJDbUstRUgzd0llMHd0ekpBOXZ5RjEwZkpVRUJrRkZjX0d4RHdSZFE?oc=5",
+    "outlet": "Yale Daily News",
+    "date": "Fri, 02 Oct 2026 05:13:15 GMT",
+    "suggested_label": "Not covered",
+    "label": "Not covered",
+    "official": "https://www.nafsa.org/regulatory-information/8cfr2142f",
+    "matched_rule": null,
+    "note": "",
+    "found": "2026-10-04",
+    "gemini": {
+      "claims": [],
+      "label": "Not covered",
+      "confidence": "low",
+      "reason": "The provided article only contains a headline and does not make specific factual claims about CPT rules.",
+      "unverified_quotes": 0,
+      "usage": {
+        "promptTokenCount": 8404,
+        "candidatesTokenCount": 51,
+        "totalTokenCount": 8455,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 8404
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "headline"
+    }
+  },
+  {
+    "id": "c2555bd2db65",
+    "status": "pending",
+    "title": "International Students Face Tighter US Internship Rules as CPT Oversight Increases - Mwakilishi.com",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYWN6NzdPSmVKNGtWWkhWU2JEbi1UVFhORUdoeDZZTTREY1pWY25wZEE0U0JfdHd2b1Z5OS1iemxQWFpfSTBHX1JWUXpyS1ZaT2ZHMGZLV1lJaG1fVzkwSHo0YUVQNVp4am9YZ3NXQ3RhZTdhdG1wT2VJX1d6NkpFQ2xYOUJtRkctNXloTks1WnRnWndIS1pBWUJuNTlRQ2RyUGF0UHNVOEpxTDdmUUhoTlJobXo3dmIzSTNpR2dR?oc=5",
+    "outlet": "Mwakilishi.com",
+    "date": "Fri, 02 Oct 2026 14:32:38 GMT",
+    "suggested_label": "Not covered",
+    "label": "Not covered",
+    "official": "https://www.nafsa.org/regulatory-information/8cfr2142f",
+    "matched_rule": null,
+    "note": "",
+    "found": "2026-10-04",
+    "gemini": {
+      "claims": [],
+      "label": "Not covered",
+      "confidence": "low",
+      "reason": "Only the headline is available, so no specific factual claims can be verified against the official sources.",
+      "unverified_quotes": 0,
+      "usage": {
+        "promptTokenCount": 8416,
+        "candidatesTokenCount": 51,
+        "totalTokenCount": 8467,
+        "cachedContentTokenCount": 3892,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 8416
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3892
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "headline"
+    }
+  },
+  {
+    "id": "411e31ea6f1a",
+    "status": "pending",
+    "title": "International Students Banned From Off-Campus Internships in the U.S. - Luther College Chips",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQckR4cFpHaGhSZ055aWhtNnhTS0dPZ3pjVmJab1k0dHZZMkFDbGFUU2lKeHZ6aWdlZ1B4d0xSYTRreDUwQno4V1BqZlQ3ck4yb29LVHUtWFBjdWhmSllKOVJxMjl5eUxURFlFMzhRd01wNnhFQTVLQlZxVU1Tay1zVklIdThvNkEyMlhVYjVUNFFHRWJTeTZUcl9FVEgxbENnd2FvUzJRSV9UTHFr?oc=5",
+    "outlet": "Luther College Chips",
+    "date": "Fri, 02 Oct 2026 09:31:09 GMT",
+    "suggested_label": "Contradicts",
+    "label": "Contradicts",
+    "official": "https://www.nafsa.org/regulatory-information/8cfr2142f",
+    "matched_rule": null,
+    "note": "",
+    "found": "2026-10-04",
+    "gemini": {
+      "claims": [
+        {
+          "claim": "International students are banned from off-campus internships in the U.S.",
+          "verdict": "contradicts",
+          "source": "reg",
+          "official_quote": "An F-1 student may be authorized by the DSO to participate in a curricular practical training program that is an integral part of an established curriculum.",
+          "quote_verified": true,
+          "url": "https://www.nafsa.org/regulatory-information/8cfr2142f"
+        }
+      ],
+      "label": "Contradicts",
+      "confidence": "low",
+      "reason": "The headline makes a broad claim that international students are banned from off-campus internships, which contradicts official CPT rules allowing such work.",
+      "unverified_quotes": 0,
+      "usage": {
+        "promptTokenCount": 8413,
+        "candidatesTokenCount": 145,
+        "totalTokenCount": 8558,
+        "cachedContentTokenCount": 3891,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 8413
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3891
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "headline"
+    }
+  }
+]

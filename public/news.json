@@ -1,0 +1,395 @@
+[
+  {
+    "id": "sevp-2608-02",
+    "title": "SEVP Broadcast Message 2608-02: Guidance for DSOs regarding Curricular Practical Training",
+    "url": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf",
+    "outlet": "SEVP (via MIT ISO)",
+    "date": "2026-08-24",
+    "label": "New rule change",
+    "official": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf",
+    "note": "The official source. CPT only when practical training is required of every student in the curriculum.",
+    "status": "approved",
+    "reviewed": "2026-09-29",
+    "gemini": {
+      "claims": [
+        {
+          "claim": "CPT must be an integral and required part of an established curriculum.",
+          "verdict": "matches",
+          "source": "bcm",
+          "official_quote": "CPT is an integral part of an established curriculum, and the practical training is required for all students participating in that curriculum, regardless of citizenship.",
+          "quote_verified": true,
+          "url": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf"
+        },
+        {
+          "claim": "Participation in CPT is not optional for students enrolled in that curriculum.",
+          "verdict": "matches",
+          "source": "bcm",
+          "official_quote": "Unlike OPT, participation in CPT is not optional for any student participating in an established curriculum that the school has determined requires CPT as an integral part of the educational experience.",
+          "quote_verified": true,
+          "url": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf"
+        },
+        {
+          "claim": "All CPT must be conducted by sponsoring employers with cooperative agreements with the school.",
+          "verdict": "matches",
+          "source": "bcm",
+          "official_quote": "Must all CPT be conducted by sponsoring employers that have established cooperative agreements with the school?",
+          "quote_verified": true,
+          "url": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf"
+        },
+        {
+          "claim": "Foreign students must proactively request CPT authorization from their DSO.",
+          "verdict": "matches",
+          "source": "bcm",
+          "official_quote": "Foreign students must make an official request for authorization for CPT to their DSO so that the school can confirm that the student is participating in an established curriculum",
+          "quote_verified": true,
+          "url": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf"
+        }
+      ],
+      "label": "Matches official rule",
+      "confidence": "high",
+      "reason": "The article's PDF content matches the official SEVP broadcast message guidance regarding CPT rules.",
+      "unverified_quotes": 0,
+      "usage": {
+        "promptTokenCount": 13213,
+        "candidatesTokenCount": 376,
+        "totalTokenCount": 13589,
+        "cachedContentTokenCount": 8363,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 13213
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 8363
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "article"
+    },
+    "ai_label": "Matches official rule",
+    "agreed": false
+  },
+  {
+    "id": "harvard-crimson",
+    "title": "Harvard International Office Halts CPT Authorizations for Several Schools After New Federal Guidance",
+    "url": "https://www.thecrimson.com/article/2026/9/3/cpt-authorizations-halted/",
+    "outlet": "The Harvard Crimson",
+    "date": "2026-09-03",
+    "label": "Matches official rule",
+    "official": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf",
+    "note": "Consistent with SEVP: CPT only where the work is a formal program requirement.",
+    "status": "approved",
+    "reviewed": "2026-09-29",
+    "gemini": {
+      "claims": [
+        {
+          "claim": "Curricular practical training is defined as alternative work/study, internship, cooperative education or any other type of required internship or practicum offered through cooperative agreements.",
+          "verdict": "matches",
+          "source": "bcm",
+          "official_quote": "Curricular practical training is defined as alternative work/study, internship, cooperative education or any other type of required internship or practicum that is offered by sponsoring employers through cooperative agreements with the school.",
+          "quote_verified": true,
+          "url": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf"
+        },
+        {
+          "claim": "CPT may be authorized only where the training is an integral part of an established curriculum and required for all students.",
+          "verdict": "matches",
+          "source": "bcm",
+          "official_quote": "CPT is an integral part of an established curriculum, and the practical training is required for all students participating in that curriculum, regardless of citizenship.",
+          "quote_verified": true,
+          "url": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf"
+        },
+        {
+          "claim": "Optional Practical Training permits up to 12 months of employment for students on F-1 visas and up to 36 months for STEM fields.",
+          "verdict": "matches",
+          "source": "opt",
+          "official_quote": "Eligible students can apply to receive up to 12 months of OPT employment authorization before completing their academic studies (pre-completion) and/or after completing their academic studies (post-completion).",
+          "quote_verified": true,
+          "url": "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/optional-practical-training-opt-for-f-1-students"
+        }
+      ],
+      "label": "Matches official rule",
+      "confidence": "high",
+      "reason": "The article's claims about CPT and OPT definitions and requirements align with the provided SEVP Broadcast Message and USCIS sources.",
+      "unverified_quotes": 0,
+      "usage": {
+        "promptTokenCount": 9524,
+        "candidatesTokenCount": 367,
+        "totalTokenCount": 9891,
+        "cachedContentTokenCount": 3914,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 9524
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3914
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "article"
+    },
+    "ai_label": "Matches official rule",
+    "agreed": true
+  },
+  {
+    "id": "stonybrook",
+    "title": "Updated SEVP Guidance on Curricular Practical Training",
+    "url": "https://www.stonybrook.edu/visa/resources/news-and-events/immigration-policy-updates/cpt-new-guidance.html",
+    "outlet": "Stony Brook University VIS",
+    "date": "2026-09",
+    "label": "Matches official rule",
+    "official": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf",
+    "note": "Accurate summary: elective internships and credit alone no longer qualify.",
+    "status": "approved",
+    "reviewed": "2026-09-29",
+    "gemini": {
+      "claims": [
+        {
+          "claim": "SEVP issued updated guidance regarding Curricular Practical Training on August 24, 2026.",
+          "verdict": "matches",
+          "source": "bcm",
+          "official_quote": "Date: August 24, 2026 BCM Number: 2608-02 General Information On August 12, 2026, the Student and Exchange Visitor Program (SEVP) issued Broadcast Message 2608-01.",
+          "quote_verified": true,
+          "url": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf"
+        },
+        {
+          "claim": "Practical training must be an integral and required component of the established curriculum for all students regardless of citizenship.",
+          "verdict": "matches",
+          "source": "bcm",
+          "official_quote": "CPT is an integral part of an established curriculum, and the practical training is required for all students participating in that curriculum, regardless of citizenship.",
+          "quote_verified": true,
+          "url": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf"
+        },
+        {
+          "claim": "An internship or research course offered as an elective does not qualify for CPT.",
+          "verdict": "matches",
+          "source": "bcm",
+          "official_quote": "In any instance where an elective course is optional, making the CPT optional, the integral and required aspects of CPT would not be met.",
+          "quote_verified": true,
+          "url": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf"
+        },
+        {
+          "claim": "Visa and Immigration Services at Stony Brook has revised its CPT eligibility criteria and review procedures to align with this guidance.",
+          "verdict": "not_covered",
+          "source": "none",
+          "official_quote": "",
+          "quote_verified": true
+        }
+      ],
+      "label": "Matches official rule",
+      "confidence": "high",
+      "reason": "The article accurately reports and summarizes the SEVP broadcast message regarding CPT requirements.",
+      "unverified_quotes": 0,
+      "usage": {
+        "promptTokenCount": 9361,
+        "candidatesTokenCount": 404,
+        "totalTokenCount": 9765,
+        "cachedContentTokenCount": 3911,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 9361
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3911
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "article"
+    },
+    "ai_label": "Matches official rule",
+    "agreed": true
+  },
+  {
+    "id": "clarkhill",
+    "title": "DHS Signals Increased Scrutiny of CPT Programs for F-1s",
+    "url": "https://www.clarkhill.com/news-events/news/dhs-signals-increased-scrutiny-of-cpt-programs/",
+    "outlet": "Clark Hill (law firm)",
+    "date": "2026-09-01",
+    "label": "Matches official rule",
+    "official": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf",
+    "note": "Employer-focused alert. Matches SEVP: CPT must be a required part of the curriculum.",
+    "status": "approved",
+    "reviewed": "2026-09-29",
+    "gemini": {
+      "claims": [],
+      "label": "Not covered",
+      "confidence": "low",
+      "reason": "The article consists only of a headline about DHS scrutiny on CPT programs and does not contain specific factual claims.",
+      "unverified_quotes": 0,
+      "usage": {
+        "promptTokenCount": 8410,
+        "candidatesTokenCount": 54,
+        "totalTokenCount": 8464,
+        "cachedContentTokenCount": 3891,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 8410
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3891
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "headline"
+    },
+    "ai_label": "Not covered",
+    "agreed": false
+  },
+  {
+    "id": "naicu",
+    "title": "DHS to Enforce Limits on Curricular Practical Training",
+    "url": "https://www.naicu.edu/news-events/washington-update/2026/september-11/dhs-to-enforce-limits-on-curricular-practical-training/",
+    "outlet": "NAICU",
+    "date": "2026-09-11",
+    "label": "Matches official rule",
+    "official": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf",
+    "note": "Describes both SEVP memos (Aug 12 and Aug 24).",
+    "status": "approved",
+    "reviewed": "2026-09-29",
+    "gemini": {
+      "claims": [
+        {
+          "claim": "DHS will enforce limits on Curricular Practical Training",
+          "verdict": "not_covered",
+          "source": "none",
+          "official_quote": "",
+          "quote_verified": true
+        }
+      ],
+      "label": "Not covered",
+      "confidence": "low",
+      "reason": "The article only provides a headline without enough text to verify specific claims against the official sources.",
+      "unverified_quotes": 0,
+      "usage": {
+        "promptTokenCount": 8403,
+        "candidatesTokenCount": 103,
+        "totalTokenCount": 8506,
+        "cachedContentTokenCount": 3891,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 8403
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3891
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "headline"
+    },
+    "ai_label": "Not covered",
+    "agreed": false
+  },
+  {
+    "id": "49b50f876f5b",
+    "title": "Vanderbilt pauses CPT approvals for optional internships amid new federal guidelines - The Vanderbilt Hustler",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNT0ZaczlDZ1U1UU5nZUxXZ0t4OGdDQ3Q3b2NNUmx4LUpzZWc4WUNSekM5bzFPakNDQ1RrQ09SeEFRWWRGMFFzVlNsT1NMSC1HVnlHN3BMMExqeGZvUklDZHVkeUktOWlJODc4M1MzZzhfVnkwSER0ZVJkdC1pUEFQaEc4OVJNWUIyWkZfeDc5VXpKOWhLaE9sY0lLRU8tUXRuTS02RDRLeGc3MzV4bTZleTZGQVVmR2FMV2drRHFtdTQtWjVH?oc=5",
+    "outlet": "The Vanderbilt Hustler",
+    "date": "Mon, 21 Sep 2026 01:02:00 GMT",
+    "label": "Matches official rule",
+    "official": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf",
+    "note": "A school applying the August 2026 SEVP guidance.",
+    "status": "approved",
+    "reviewed": "2026-09-29",
+    "gemini": {
+      "claims": [
+        {
+          "claim": "Vanderbilt pauses CPT approvals for optional internships amid new federal guidelines",
+          "verdict": "not_covered",
+          "source": "none",
+          "official_quote": "",
+          "quote_verified": true
+        }
+      ],
+      "label": "Not covered",
+      "confidence": "low",
+      "reason": "Only the headline is available and the specific actions of Vanderbilt University are not mentioned in the official sources.",
+      "unverified_quotes": 0,
+      "usage": {
+        "promptTokenCount": 8411,
+        "candidatesTokenCount": 109,
+        "totalTokenCount": 8520,
+        "cachedContentTokenCount": 3891,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 8411
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3891
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "headline"
+    },
+    "ai_label": "Not covered",
+    "agreed": false
+  },
+  {
+    "id": "1234b08793f3",
+    "title": "Grinnell College pauses CPT authorization for international students - thesandb.com",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVzJXTWFQWllLVnRyLWJ5NnV3b2pBTmdTdGhJUUpBUG9HcF9zdENtWE5hbV9hdGhUSDRiY2xkQmFsaEZnb1JEMlhoRHJPdWNXRmFha0YxME4zXzBXd1F3XzVKVVVEYV9waW91RDlHWm40NE5Zck9yUmw1RFpKUXpIZVlabUR2ekxnaDFyYkNuTVVQQV9PLVlBRFRmSXBFUl80UVBtMnNMVUlKLTNs?oc=5",
+    "outlet": "thesandb.com",
+    "date": "Mon, 28 Sep 2026 12:22:34 GMT",
+    "label": "Matches official rule",
+    "official": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf",
+    "note": "A school applying the August 2026 SEVP guidance.",
+    "status": "approved",
+    "reviewed": "2026-09-29",
+    "gemini": {
+      "claims": [],
+      "label": "Not covered",
+      "confidence": "low",
+      "reason": "The provided text only contains a headline without any article body or specific factual claims to fact-check against the official sources.",
+      "unverified_quotes": 0,
+      "usage": {
+        "promptTokenCount": 8412,
+        "candidatesTokenCount": 56,
+        "totalTokenCount": 8468,
+        "cachedContentTokenCount": 3891,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 8412
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3891
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "input": "headline"
+    },
+    "ai_label": "Not covered",
+    "agreed": false
+  }
+]

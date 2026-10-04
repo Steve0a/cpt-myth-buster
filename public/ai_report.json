@@ -1,0 +1,98 @@
+{
+ "updated": "2026-09-29",
+ "search_eval": {
+  "test_set": "50 student-style CPT questions + 5 off-topic questions (scripts/testset.json)",
+  "rows": [
+   {
+    "method": "Keyword matching (v3)",
+    "top1": 40,
+    "top3": 76,
+    "off_topic_rejected": "5/5",
+    "refused_in_scope": 25
+   },
+   {
+    "method": "Meaning-based: MiniLM",
+    "top1": 60,
+    "top3": 78,
+    "off_topic_rejected": "5/5",
+    "refused_in_scope": 2
+   },
+   {
+    "method": "Meaning-based: bge-small + keywords",
+    "top1": 76,
+    "top3": 90,
+    "off_topic_rejected": "5/5",
+    "refused_in_scope": 2
+   },
+   {
+    "method": "Meaning-based: bge-small, question + answer (v4)",
+    "top1": 84,
+    "top3": 96,
+    "off_topic_rejected": "5/5",
+    "refused_in_scope": 2
+   }
+  ],
+  "note": "Threshold 0.70 chosen on this same test set, so real-world accuracy may be a little lower. Questions the search can't match go to the Gemini fallback."
+ },
+ "classifier": {
+  "examples": 18,
+  "human_labeled": 7,
+  "label_counts": {
+   "New rule change": 2,
+   "Matches official rule": 16
+  },
+  "agreement_with_gemini": 89,
+  "majority_baseline": 89,
+  "summary": "Trained on 18 stories (headline + outlet). It matched the reference label 89% of the time, the same as always guessing the most common label, so it isn't better than the baseline yet. It needs more reviewed stories, especially Contradicts and Not covered examples."
+ },
+ "fallback_eval": {
+  "tested": 7,
+  "answered_in_scope": 2,
+  "refused_off_topic": 5,
+  "quotes_dropped": 1,
+  "rows": [
+   {
+    "q": "can I intern before finishing my first year in the US",
+    "status": "ok",
+    "quotes": 1,
+    "dropped": 1
+   },
+   {
+    "q": "what is the weather in kansas city today",
+    "status": "no_answer",
+    "quotes": 0,
+    "dropped": 0
+   },
+   {
+    "q": "how do i apply for a green card through marriage",
+    "status": "no_answer",
+    "quotes": 0,
+    "dropped": 0
+   },
+   {
+    "q": "best pizza near park university",
+    "status": "no_answer",
+    "quotes": 0,
+    "dropped": 0
+   },
+   {
+    "q": "can my parents visit me on a b2 visa",
+    "status": "no_answer",
+    "quotes": 0,
+    "dropped": 0
+   },
+   {
+    "q": "how do i reset my canvas password",
+    "status": "no_answer",
+    "quotes": 0,
+    "dropped": 0
+   },
+   {
+    "q": "Do English language program students qualify for CPT?",
+    "status": "ok",
+    "quotes": 1,
+    "dropped": 0
+   }
+  ]
+ }
+}

@@ -1,0 +1,3 @@
+{ "name": "cpt-myth-buster", "private": true, "type": "module",
+  "scripts": { "embeddings": "node scripts/build_emb.mjs public", "deploy": "wrangler deploy" },
+  "devDependencies": { "@huggingface/transformers": "^3", "wrangler": "^4" } }

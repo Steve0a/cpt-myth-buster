@@ -1,0 +1,683 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CPT Myth-Buster · Park Career Toolkit</title>
+<meta name="description" content="Ask CPT questions and get answers from official DHS and USCIS sources.">
+<link rel="preconnect" href="https://api.fontshare.com">
+<link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#FFFFFF;--side:#F0F4F9;--surface:#F0F4F9;--surface2:#E9EEF6;--hover:#E2E7EF;--border:#DDE3EA;
+  --text:#1F1F1F;--muted:#5F6368;--faint:#80868B;--accent:#0B57D0;--accent-soft:#D3E3FD;
+  --g1:#4285F4;--g2:#9B72CB;--g3:#D96570;
+  --ok:#146C2E;--ok-soft:#DDF3E4;--warn:#8A4B00;--warn-soft:#FEEFC3;--bad:#B3261E;--bad-soft:#FCE8E6;
+  --r:24px;
+}
+[data-theme="dark"]{
+  --bg:#131314;--side:#1E1F20;--surface:#1E1F20;--surface2:#282A2C;--hover:#333537;--border:#3C4043;
+  --text:#E3E3E3;--muted:#A8ABB0;--faint:#8E918F;--accent:#A8C7FA;--accent-soft:#1F3760;
+  --ok:#6DD58C;--ok-soft:#173A24;--warn:#F6C35B;--warn-soft:#3D2E0A;--bad:#F2B8B5;--bad-soft:#442726;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{font-family:'General Sans',system-ui,-apple-system,Segoe UI,sans-serif;background:var(--bg);color:var(--text);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow:hidden}
+a{color:var(--accent)}
+button{font:inherit;color:inherit}
+.app{display:flex;height:100vh;height:100dvh}
+
+/* Sidebar */
+aside{width:272px;flex:none;background:var(--side);display:flex;flex-direction:column;padding:12px;gap:4px;transition:width .2s,padding .2s;overflow:hidden}
+.app.collapsed aside{width:68px}
+.app.collapsed aside .lbl,.app.collapsed aside .recent{display:none}
+.sbtn{display:flex;align-items:center;gap:14px;width:100%;border:none;background:transparent;padding:10px 12px;border-radius:999px;cursor:pointer;text-align:left;font-size:14.5px;font-weight:500;white-space:nowrap;color:var(--text)}
+.sbtn:hover{background:var(--hover)}
+.sbtn[aria-current="page"]{background:var(--accent-soft);color:var(--accent)}
+.sbtn svg{flex:none;width:20px;height:20px}
+.newchat{background:var(--surface2);margin:8px 0 12px;width:auto;align-self:flex-start;padding:10px 16px}
+.app.collapsed .newchat{padding:10px 12px}
+.sect{font-size:13px;font-weight:600;color:var(--muted);padding:14px 12px 6px}
+.recent{display:flex;flex-direction:column;gap:2px;overflow-y:auto;flex:1;min-height:0}
+.recent .sbtn{font-weight:400;font-size:14px;overflow:hidden;text-overflow:ellipsis}
+.spacer{flex:1}
+@media(max-width:860px){aside{position:fixed;z-index:30;height:100%;transform:translateX(-100%);transition:transform .2s;width:280px!important}
+  .app.open aside{transform:none;box-shadow:0 0 40px rgba(0,0,0,.25)}
+  .app.collapsed aside .lbl,.app.collapsed aside .recent{display:revert}}
+
+/* Main */
+main{flex:1;display:flex;flex-direction:column;min-width:0;position:relative}
+.top{height:64px;display:flex;align-items:center;justify-content:space-between;padding:0 16px;flex:none}
+.brand{display:flex;align-items:center;gap:6px;font-size:20px;font-weight:500;padding:6px 10px;border-radius:12px}
+.pill{font-size:12px;font-weight:600;padding:4px 10px;border-radius:999px;background:var(--surface);color:var(--muted)}
+.ibtn{width:40px;height:40px;border:none;border-radius:999px;background:transparent;cursor:pointer;display:grid;place-items:center;color:var(--muted)}
+.ibtn:hover{background:var(--hover);color:var(--text)}
+.ibtn svg{width:22px;height:22px}
+.menu-m{display:none}
+@media(max-width:860px){.menu-m{display:grid}}
+.scroll{flex:1;overflow-y:auto;scroll-behavior:smooth}
+.col{max-width:780px;margin:0 auto;padding:0 20px}
+.view{display:none}.view.on{display:block}
+
+/* Greeting */
+.hello{padding:12vh 0 28px}
+.hello h1{font-size:clamp(34px,5vw,52px);font-weight:500;letter-spacing:-.02em;line-height:1.15}
+.grad{background:linear-gradient(74deg,var(--g1) 0,var(--g2) 9%,var(--g3) 20%,var(--g3) 24%,var(--g2) 35%,var(--g1) 44%,var(--g2) 50%,var(--g3) 56%,var(--bg) 75%,var(--bg) 100%);background-size:400% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:sheen 3s ease-out forwards}
+@keyframes sheen{from{background-position:100% 0}to{background-position:0 0}}
+.hello h1 .dim{color:var(--faint)}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:36px}
+@media(max-width:760px){.cards{grid-template-columns:repeat(2,1fr)}}
+.qcard{border:none;background:var(--surface);border-radius:16px;padding:16px;min-height:132px;text-align:left;cursor:pointer;display:flex;flex-direction:column;justify-content:space-between;font-size:15px;transition:background .15s}
+.qcard:hover{background:var(--hover)}
+.qcard span.k{width:36px;height:36px;border-radius:999px;background:var(--bg);display:grid;place-items:center;align-self:flex-end;color:var(--muted)}
+.banner{margin-top:14px;background:var(--warn-soft);border-radius:16px;padding:14px 16px;font-size:14.5px;display:flex;gap:10px;align-items:flex-start}
+.banner b{color:var(--warn)}
+
+/* Messages */
+.thread{padding:12px 0 24px;display:flex;flex-direction:column;gap:28px}
+.me{align-self:flex-end;background:var(--surface2);padding:12px 18px;border-radius:24px 4px 24px 24px;max-width:80%;font-size:15.5px}
+.bot{display:flex;gap:16px;align-items:flex-start}
+.av{width:32px;height:32px;flex:none;display:grid;place-items:center;margin-top:2px}
+.bot .body{flex:1;min-width:0}
+.bot .body p+p,.bot .body p+ul,.bot .body ul+p{margin-top:10px}
+.bot .body ul{padding-left:22px}
+.verdict{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:4px 10px;border-radius:999px;margin-bottom:10px}
+.verdict.myth{background:var(--bad-soft);color:var(--bad)}
+.verdict.fact{background:var(--ok-soft);color:var(--ok)}
+.verdict.none{background:var(--warn-soft);color:var(--warn)}
+.mq{font-weight:600;margin-bottom:6px}
+.src{margin-top:14px;background:var(--surface);border-radius:16px;padding:12px 14px;font-size:13.5px;color:var(--muted)}
+.src blockquote{color:var(--text);font-size:14px;margin-bottom:8px;padding-left:12px;border-left:3px solid var(--border)}
+.src a{font-weight:600;text-decoration:none}
+.src a:hover{text-decoration:underline}
+.badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:2px 8px;border-radius:999px;margin-right:6px;background:var(--surface2);color:var(--muted)}
+.src.gov .badge{background:var(--accent-soft);color:var(--accent)}
+.src.dso .badge{background:var(--warn-soft);color:var(--warn)}
+.acts{display:flex;gap:2px;margin-top:8px}
+.acts .ibtn{width:34px;height:34px}.acts .ibtn svg{width:18px;height:18px}
+.acts .ibtn[aria-pressed="true"]{color:var(--accent)}
+.related{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.chipq{border:1px solid var(--border);background:transparent;border-radius:999px;padding:7px 14px;font-size:14px;cursor:pointer;text-align:left}
+.chipq:hover{background:var(--surface)}
+.typing span{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--faint);margin-right:4px;animation:b 1s infinite}
+.typing span:nth-child(2){animation-delay:.15s}.typing span:nth-child(3){animation-delay:.3s}
+@keyframes b{0%,80%,100%{opacity:.3;transform:translateY(0)}40%{opacity:1;transform:translateY(-3px)}}
+.spark{animation:spin 1.2s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* Composer */
+.composer{flex:none;padding:8px 20px 12px;background:var(--bg)}
+.box{max-width:780px;margin:0 auto;background:var(--surface);border-radius:28px;padding:8px 8px 8px 22px;display:flex;align-items:flex-end;gap:8px;border:1px solid transparent;transition:border-color .15s}
+.box:focus-within{border-color:var(--border);background:var(--surface)}
+.box textarea{flex:1;border:none;background:transparent;resize:none;outline:none;color:var(--text);font:inherit;font-size:16px;padding:12px 0;max-height:160px;line-height:1.5}
+.box textarea::placeholder{color:var(--muted)}
+.send{width:44px;height:44px;border:none;border-radius:999px;background:transparent;color:var(--faint);cursor:pointer;display:grid;place-items:center}
+.send.ready{background:var(--text);color:var(--bg)}
+.disc{text-align:center;font-size:12.5px;color:var(--muted);padding-top:10px}
+.disc a{color:inherit}
+
+/* Content pages (same shell) */
+.page{padding:8px 0 48px}
+.page h2{font-size:32px;font-weight:500;letter-spacing:-.02em;margin-bottom:6px}
+.page .sub{color:var(--muted);margin-bottom:24px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}
+.chip{border:1px solid var(--border);background:transparent;border-radius:10px;padding:7px 14px;font-size:14px;font-weight:500;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--accent-soft);color:var(--accent);border-color:transparent}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+.card{background:var(--surface);border-radius:20px;padding:20px;display:flex;flex-direction:column;gap:10px}
+.card .myth-text{font-weight:600;text-decoration:line-through;text-decoration-color:var(--bad);text-decoration-thickness:1.5px}
+.card .src{background:var(--bg);margin-top:auto}
+.card .cat{font-size:12px;color:var(--muted)}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;counter-reset:s}
+.step{background:var(--surface);border-radius:20px;padding:20px}
+.step::before{counter-increment:s;content:counter(s);display:grid;place-items:center;width:32px;height:32px;border-radius:999px;background:var(--accent-soft);color:var(--accent);font-weight:700;margin-bottom:10px}
+.step h3{font-size:16.5px;font-weight:600;margin-bottom:4px}
+.step p{font-size:14.5px;color:var(--muted)}
+.tablewrap{overflow-x:auto;background:var(--surface);border-radius:20px}
+table{width:100%;border-collapse:collapse;font-size:14.5px;min-width:600px}
+th,td{text-align:left;padding:14px 18px;border-bottom:1px solid var(--border);vertical-align:top}
+th{font-size:12.5px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+tr:last-child td{border-bottom:none}
+td:first-child{font-weight:600;width:24%}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(max-width:760px){.two{grid-template-columns:1fr}}
+.panel{background:var(--surface);border-radius:20px;padding:22px}
+.panel h3{font-size:18px;font-weight:600;margin-bottom:4px}
+.panel p.m{color:var(--muted);font-size:14.5px;margin-bottom:16px}
+label{font-weight:600;font-size:14px;display:block;margin-bottom:6px}
+.row{display:flex;gap:10px;align-items:center;margin-bottom:12px}
+input[type=range]{flex:1;accent-color:var(--accent)}
+.val{font-weight:700;font-variant-numeric:tabular-nums;min-width:86px;text-align:right}
+.result{border-radius:14px;padding:12px 14px;font-size:14.5px;font-weight:500}
+.result.ok{background:var(--ok-soft);color:var(--ok)}.result.warn{background:var(--warn-soft);color:var(--warn)}.result.bad{background:var(--bad-soft);color:var(--bad)}
+.script{background:var(--bg);border-radius:14px;padding:14px;font-size:15px;margin-bottom:10px}
+.btn{border:none;background:var(--text);color:var(--bg);font-weight:600;font-size:14px;padding:10px 18px;border-radius:999px;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--text);border:1px solid var(--border)}
+.checklist{list-style:none;display:flex;flex-direction:column;gap:8px}
+.checklist label{display:flex;gap:10px;align-items:flex-start;font-weight:400;font-size:15px;margin:0;cursor:pointer}
+.checklist input{margin-top:5px;accent-color:var(--accent);width:16px;height:16px;flex:none}
+.bar{height:6px;background:var(--bg);border-radius:999px;overflow:hidden;margin:14px 0 6px}
+.bar i{display:block;height:100%;width:0;background:var(--accent);transition:width .3s}
+.upd{background:var(--surface);border-radius:20px;padding:22px;display:grid;gap:12px}
+.upd ul{padding-left:20px}
+mark{background:var(--warn-soft);color:inherit;border-radius:3px}
+.notify{margin-top:10px;width:100%;border:none;background:var(--surface);border-radius:16px;padding:14px 16px;display:flex;gap:12px;align-items:center;text-align:left;cursor:pointer;font-size:14.5px}
+.notify:hover{background:var(--hover)}
+.notify svg{width:20px;height:20px;flex:none;color:var(--accent)}
+.notify .go{margin-left:auto;font-weight:600;color:var(--accent);white-space:nowrap}
+.field{width:100%;font:inherit;font-size:15.5px;padding:13px 16px;border-radius:14px;border:1px solid var(--border);background:var(--bg);color:var(--text);outline:none}
+.field:focus{border-color:var(--accent)}
+.consent{display:flex;gap:10px;align-items:flex-start;font-weight:400;font-size:14px;color:var(--muted);margin:16px 0 4px;cursor:pointer}
+.consent input{margin-top:4px;accent-color:var(--accent);width:16px;height:16px;flex:none}
+.err{color:var(--bad);font-size:14px;min-height:20px}
+.ticks{list-style:none;display:flex;flex-direction:column;gap:10px;font-size:15px}
+.ticks li{padding-left:26px;position:relative}
+.ticks li::before{content:"";position:absolute;left:2px;top:7px;width:12px;height:7px;border-left:2px solid var(--accent);border-bottom:2px solid var(--accent);transform:rotate(-45deg)}
+.done-ic{width:52px;height:52px;border-radius:999px;background:var(--ok-soft);color:var(--ok);display:grid;place-items:center;margin-bottom:12px}
+.legend{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+.lab{font-size:12px;font-weight:700;letter-spacing:.03em;padding:4px 10px;border-radius:999px;white-space:nowrap}
+.lab.ok{background:var(--ok-soft);color:var(--ok)}.lab.bad{background:var(--bad-soft);color:var(--bad)}.lab.warn{background:var(--warn-soft);color:var(--warn)}.lab.new{background:var(--accent-soft);color:var(--accent)}
+.nlist{display:flex;flex-direction:column;gap:10px}
+.nitem{background:var(--surface);border-radius:20px;padding:18px 20px;display:grid;gap:8px}
+.nitem .meta{font-size:13px;color:var(--muted);display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.nitem h3{font-size:16.5px;font-weight:600;line-height:1.4}
+.nitem h3 a{color:var(--text);text-decoration:none}.nitem h3 a:hover{text-decoration:underline}
+.nitem .note{font-size:14.5px}
+.nitem .cmp{font-size:13px;color:var(--muted)}.nitem .cmp a{font-weight:600;text-decoration:none}
+.how{font-size:12.5px;color:var(--faint);margin-top:8px}
+.verdict.ai{background:linear-gradient(90deg,rgba(66,133,244,.16),rgba(155,114,203,.16),rgba(217,101,112,.16));color:var(--text)}
+.pill.mode[data-state="ready"]{background:var(--ok-soft);color:var(--ok)}
+.pill.mode[data-state="loading"]{background:var(--warn-soft);color:var(--warn)}
+@media(max-width:600px){.pill.mode{display:none}}
+.bignum{font-size:44px;font-weight:600;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.legal{font-size:12.5px;color:var(--muted);border-top:1px solid var(--border);padding:16px 0 32px;margin-top:8px}
+.legal a{color:inherit}
+#v-chat.on ~ .legal{display:none}
+.toast{position:fixed;bottom:110px;left:50%;transform:translateX(-50%) translateY(10px);opacity:0;background:var(--text);color:var(--bg);padding:10px 18px;border-radius:12px;font-weight:600;font-size:14px;transition:all .2s;pointer-events:none;z-index:50}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+.scrim{display:none}
+@media(max-width:860px){.app.open .scrim{display:block;position:fixed;inset:0;background:rgba(0,0,0,.35);z-index:25}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="app" id="app">
+<aside aria-label="Navigation">
+  <button class="ibtn" id="collapse" aria-label="Collapse menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+  <button class="sbtn newchat" id="newchat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg><span class="lbl">New chat</span></button>
+  <button class="sbtn" data-view="chat" aria-current="page"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M21 12a8 8 0 01-11.6 7.1L4 20l1-4.6A8 8 0 1121 12z"/></svg><span class="lbl">Ask a question</span></button>
+  <button class="sbtn" data-view="update"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 8v5M12 16.5v.5"/><circle cx="12" cy="12" r="9"/></svg><span class="lbl">Aug 2026 update</span></button>
+  <button class="sbtn" data-view="news"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9h10M7 13h10M7 17h6"/></svg><span class="lbl">CPT news check</span></button>
+  <button class="sbtn" data-view="quality"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 19h16M7 15v-4M12 15V7M17 15v-6"/></svg><span class="lbl">AI quality</span></button>
+  <button class="sbtn" data-view="myths"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 10l3 3 5-5"/></svg><span class="lbl">Myths vs. facts</span></button>
+  <button class="sbtn" data-view="steps"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 6h14M5 12h10M5 18h6"/></svg><span class="lbl">How CPT works</span></button>
+  <button class="sbtn" data-view="compare"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="8" height="16" rx="2"/><rect x="13" y="4" width="8" height="16" rx="2"/></svg><span class="lbl">CPT vs. OPT</span></button>
+  <button class="sbtn" data-view="tools"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 20l6-6M14.5 4.5a4 4 0 00-5 5L4 15l5 5 5.5-5.5a4 4 0 005-5l-2.5 2.5-3-3 2.5-2.5z"/></svg><span class="lbl">Quick tools</span></button>
+  <button class="sbtn" data-view="updates"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 16V11a6 6 0 1112 0v5l2 2H4l2-2zM10 21h4"/></svg><span class="lbl">Get email updates</span></button>
+  <div class="sect lbl">Recent</div>
+  <div class="recent" id="recent"><span class="lbl" style="padding:4px 12px;font-size:13.5px;color:var(--muted)">Your questions show here</span></div>
+  <button class="sbtn" id="theme"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.8A9 9 0 1111.2 3a7 7 0 009.8 9.8z"/></svg><span class="lbl">Dark mode</span></button>
+</aside>
+<div class="scrim" id="scrim"></div>
+
+<main>
+  <div class="top">
+    <div style="display:flex;align-items:center;gap:4px">
+      <button class="ibtn menu-m" id="menuM" aria-label="Open menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+      <div class="brand">CPT Myth-Buster <span class="pill">Official sources</span> <span class="pill mode" id="searchMode">Keyword search</span></div>
+    </div>
+    <span class="pill">Park Career Toolkit</span>
+  </div>
+
+  <div class="scroll" id="scroll">
+    <div class="col">
+      <!-- CHAT -->
+      <section class="view on" id="v-chat">
+        <div class="hello" id="hello">
+          <h1><span class="grad">Hello, Park student.</span><br><span class="dim">What CPT question can I clear up?</span></h1>
+          <div class="cards">
+            <button class="qcard" data-ask="What changed with CPT in August 2026?">What changed with CPT in August 2026?<span class="k"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span></button>
+            <button class="qcard" data-ask="Can I apply for jobs before I get CPT?">Can I apply for jobs before I get CPT?<span class="k"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="7" width="16" height="12" rx="2"/><path d="M9 7V5h6v2"/></svg></span></button>
+            <button class="qcard" data-ask="Will CPT affect my OPT?">Will CPT affect my OPT?<span class="k"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19h16M7 15V9M12 15V5M17 15v-3"/></svg></span></button>
+            <button class="qcard" data-ask="How do I explain CPT to a recruiter?">How do I explain CPT to a recruiter?<span class="k"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a8 8 0 01-11.6 7.1L4 20l1-4.6A8 8 0 1121 12z"/></svg></span></button>
+          </div>
+          <div class="banner"><div><b>New, August 2026:</b> SEVP narrowed CPT to training required of every student in your program. <a href="#" data-go="update">See what changed</a>.</div></div>
+          <button class="notify" data-go="updates"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 16V11a6 6 0 1112 0v5l2 2H4l2-2zM10 21h4"/></svg><span><b>Get CPT updates by email.</b> Only when official rules change.</span><span class="go">Sign up</span></button>
+        </div>
+        <div class="thread" id="thread" aria-live="polite"></div>
+      </section>
+
+      <!-- UPDATE -->
+      <section class="view page" id="v-update">
+        <h2>August 2026 CPT update</h2>
+        <p class="sub">What SEVP changed, and what to do about it.</p>
+        <div class="upd">
+          <p>On August 12 and August 24, 2026, SEVP (the DHS program that runs CPT) sent guidance to every school's DSOs. The main points:</p>
+          <ul>
+            <li>CPT is only for practical training that is <b>required of every student</b> in your curriculum, U.S. citizens included.</li>
+            <li>Your degree must depend on completing it. If there's another way to finish, CPT isn't available.</li>
+            <li>Elective internships and course credit alone no longer qualify.</li>
+            <li>Past approvals for similar students don't guarantee future approvals.</li>
+            <li>Schools that don't comply risk losing SEVP certification, so many are reviewing or pausing CPT.</li>
+          </ul>
+          <p><b>What to do:</b> ask your academic department and DSO whether practical training is required for everyone in your program. If not, ask about OPT.</p>
+          <div class="src gov"><blockquote>“In contrast, CPT fulfills an integral element of an established curriculum and successful completion is contingent on participation in CPT.”</blockquote><span class="badge">Official source</span> <a href="https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf" target="_blank" rel="noopener">SEVP Broadcast Message 2608-02 (Aug 24, 2026)</a></div>
+          <div class="src school"><span class="badge">School source</span> <a href="https://www.stonybrook.edu/visa/resources/news-and-events/immigration-policy-updates/cpt-new-guidance.html" target="_blank" rel="noopener">Stony Brook VIS summary of the SEVP guidance</a></div>
+        </div>
+      </section>
+
+
+      <!-- EMAIL UPDATES -->
+      <section class="view page" id="v-updates">
+        <h2>Get CPT updates by email</h2>
+        <p class="sub">We'll email you when official CPT rules or guidance change. No spam, no AI-written news.</p>
+        <div class="two">
+          <form class="panel" id="signup" novalidate>
+            <div id="signupFields">
+              <label for="em">School email</label>
+              <input class="field" id="em" type="email" autocomplete="email" placeholder="you@park.edu" required>
+              <label for="prog" style="margin-top:14px">Program <span style="font-weight:400;color:var(--muted)">(optional)</span></label>
+              <select class="field" id="prog">
+                <option value="">Select your program</option>
+                <option>Information Systems & Business Analytics (MS)</option>
+                <option>Computer Science</option>
+                <option>Business / MBA</option>
+                <option>Other graduate program</option>
+                <option>Undergraduate</option>
+              </select>
+              <label class="consent"><input type="checkbox" id="ok" required> I agree to receive CPT update emails from the Park Career Toolkit. I can unsubscribe anytime.</label>
+              <p class="err" id="err" role="alert"></p>
+              <button class="btn" type="submit" id="subBtn" style="width:100%;margin-top:6px">Subscribe</button>
+            </div>
+            <div id="signupDone" hidden>
+              <div class="done-ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></div>
+              <h3>You're subscribed</h3>
+              <p class="m" id="doneText">We'll email you when CPT rules change.</p>
+              <button class="btn ghost" type="button" data-view="chat">Back to questions</button>
+            </div>
+          </form>
+          <div class="panel">
+            <h3>What you'll get</h3>
+            <ul class="ticks">
+              <li><b>Official changes only.</b> New SEVP, DHS or USCIS guidance on CPT and OPT, with the source link.</li>
+              <li><b>Plain-language summary.</b> What changed and what to ask your DSO.</li>
+              <li><b>At most 2 emails a month</b>, unless there's an urgent rule change.</li>
+              <li><b>Job-search session reminders</b> for Park career events.</li>
+            </ul>
+            <h3 style="margin-top:20px">Your privacy</h3>
+            <p class="m" style="margin:0">We only collect your email and program. They're stored privately by the Park Career Toolkit, never sold or shared, and deleted when you unsubscribe. Reply "unsubscribe" to any email to stop.</p>
+          </div>
+        </div>
+        <div class="panel" style="margin-top:12px">
+          <h3>Latest update sent</h3>
+          <p class="m" style="margin:0 0 10px">September 2026 · SEVP narrows CPT eligibility</p>
+          <p style="font-size:15px">SEVP guidance from August 12 and 24, 2026 limits CPT to practical training required of every student in a program. <a href="#" data-go="update">Read the summary</a>.</p>
+        </div>
+      </section>
+
+      <!-- NEWS -->
+      <section class="view page" id="v-news">
+        <h2>CPT news check</h2>
+        <p class="sub">News about CPT, compared with the official rules. Every label is reviewed by a person before it appears here.</p>
+        <div class="banner" style="margin:0 0 14px"><div><b>News is for awareness only.</b> Headlines can be wrong or out of date. The official word on CPT comes from <a href="https://www.uscis.gov" target="_blank" rel="noopener">USCIS</a> and <a href="https://studyinthestates.dhs.gov" target="_blank" rel="noopener">Study in the States (DHS/SEVP)</a>, and your DSO.</div></div>
+        <div class="legend">
+          <span class="lab ok">Matches official rule</span><span class="lab bad">Contradicts</span><span class="lab warn">Not covered</span><span class="lab new">New rule change</span>
+        </div>
+        <div class="chips" id="nchips"></div>
+        <div class="nlist" id="nlist"><p class="sub">Loading news…</p></div>
+        <p class="disc" style="text-align:left;margin-top:14px">Checked daily. Labels compare each story with SEVP, DHS and USCIS sources. A "Matches" label means the story agrees with official guidance, not that it applies to your school. Ask your DSO.</p>
+      </section>
+
+      <!-- AI QUALITY -->
+      <section class="view page" id="v-quality">
+        <h2>AI quality report</h2>
+        <p class="sub">How well the AI features work, measured with test sets and human review.</p>
+        <div class="panel" style="margin-bottom:12px">
+          <h3>Smart search accuracy</h3>
+          <p class="m" id="qSet"></p>
+          <div class="tablewrap" style="background:var(--bg)"><table><thead><tr><th>Method</th><th>Right answer first</th><th>Right answer in top 3</th><th>Off-topic refused</th><th>In-scope refused</th></tr></thead><tbody id="qRows"></tbody></table></div>
+          <p class="how" id="qNote"></p>
+        </div>
+        <div class="panel" style="margin-bottom:12px"><h3>Gemini fallback safety check</h3><p class="m">Questions smart search can't match go to Gemini, which may only answer with quotes found word for word in the official pages.</p><p id="fb" style="font-size:15px"></p></div>
+        <div class="two">
+          <div class="panel"><h3>Gemini vs. human review</h3><p class="m">How often Gemini's news label matched the label approved by a person.</p><div class="bignum" id="agree">–</div><p class="how" id="agreeN">Starts counting once Gemini-labeled stories are reviewed.</p></div>
+          <div class="panel"><h3>Our own classifier vs. Gemini</h3><p class="m">A small model trained on reviewed news labels, compared with Gemini.</p><div id="clf"><p class="how">Waiting for enough labeled stories.</p></div></div>
+        </div>
+      </section>
+      <!-- MYTHS -->
+      <section class="view page" id="v-myths">
+        <h2>Myths vs. facts</h2>
+        <p class="sub">Common beliefs, checked against official sources.</p>
+        <div class="chips" id="chips"></div>
+        <div class="grid" id="mythGrid"></div>
+      </section>
+
+      <!-- STEPS -->
+      <section class="view page" id="v-steps">
+        <h2>How CPT works</h2>
+        <p class="sub">Most schools follow this order. Your International Student office may add its own forms or deadlines.</p>
+        <div class="steps">
+      <div class="step"><h3>Check eligibility</h3><p>One full academic year in F-1 status (some graduate programs are exempt), and since Aug 2026, training required of every student in your program.</p></div>
+      <div class="step"><h3>Apply to jobs</h3><p>Apply and interview now. You do not need CPT approval to apply or interview.</p></div>
+      <div class="step"><h3>Get a written offer</h3><p>It should list job title, duties related to your major, start and end dates, hours per week, location and supervisor.</p></div>
+      <div class="step"><h3>Enroll and get approval</h3><p>Register for the required internship or practicum course and get sign-off from your academic advisor, if your school requires it.</p></div>
+      <div class="step"><h3>DSO authorizes CPT</h3><p>Your DSO (school visa advisor) records it in SEVIS and gives you a new I-20 showing the employer, dates and full- or part-time.</p></div>
+      <div class="step"><h3>Start on the approved date</h3><p>Not a day earlier. Show your employer the updated I-20 for Form I-9. Changes need a new authorization.</p></div>
+    </div>
+      </section>
+
+      <!-- COMPARE -->
+      <section class="view page" id="v-compare">
+        <h2>CPT vs. OPT</h2>
+        <p class="sub">They're often confused, including by recruiters.</p>
+        <div class="tablewrap">
+      <table>
+        <thead><tr><th></th><th>CPT</th><th>OPT</th></tr></thead>
+        <tbody>
+          <tr><td>When</td><td>While you are still studying, before program completion</td><td>Mostly after you graduate (pre-completion OPT also exists)</td></tr>
+          <tr><td>Who approves</td><td>Your school's DSO</td><td>USCIS, after your DSO recommends it</td></tr>
+          <tr><td>Application to USCIS</td><td>No. No EAD card, no USCIS fee</td><td>Yes. Form I-765, fee, EAD card</td></tr>
+          <tr><td>Job offer needed first</td><td>Yes. CPT is tied to one employer</td><td>No for standard OPT. You can apply while job searching</td></tr>
+          <tr><td>Tied to curriculum</td><td>Yes. Since Aug 2026, must be required of every student in your program</td><td>Must relate to your field of study</td></tr>
+          <tr><td>Time limit</td><td>No cap, but 1 year+ of full-time CPT ends post-completion OPT eligibility</td><td>12 months, plus a 24-month STEM extension if eligible</td></tr>
+          <tr><td>Is it "sponsorship"?</td><td colspan="2">No. Neither CPT nor OPT requires an employer to sponsor a visa. H-1B is sponsorship.</td></tr>
+        </tbody>
+      </table>
+    </div>
+      </section>
+
+      <!-- TOOLS -->
+      <section class="view page" id="v-tools">
+        <h2>Quick tools</h2>
+        <p class="sub">Nothing you enter leaves this page.</p>
+        <div class="two">
+      <div class="panel">
+        <h3>OPT safety check</h3>
+        <p class="m">Add up your full-time CPT so far and planned. Part-time CPT does not count toward the 12-month limit.</p>
+        <label for="ft">Total full-time CPT (more than 20 hrs/week)</label>
+        <div class="row"><input id="ft" type="range" min="0" max="15" step="0.5" value="0"><span class="val" id="ftv">0 months</span></div>
+        <div class="result ok" id="ftr" aria-live="polite"></div>
+      </div>
+      <div class="panel">
+        <h3>What to tell a recruiter</h3>
+        <p class="m">Keep it short. Answer honestly when asked about work authorization.</p>
+        <div class="script" id="s1">"I'm authorized to work through my university's Curricular Practical Training program. It doesn't require visa sponsorship. My school approves it once I have an offer."</div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap"><button class="btn" data-copy="s1">Copy script</button><button class="btn ghost" id="swap">Show "Do you need sponsorship?" answer</button></div>
+      </div>
+      <div class="panel">
+        <h3>Is my offer ready for CPT?</h3>
+        <p class="m">Check what your offer letter includes before you go to your DSO.</p>
+        <ul class="checklist" id="offer"></ul>
+        <div class="bar"><i id="obar"></i></div>
+        <p class="m" id="otext" style="margin:0"></p>
+      </div>
+      <div class="panel">
+        <h3>Hours check</h3>
+        <p class="m">Enter your weekly hours to see which type of CPT this is.</p>
+        <label for="hrs">Hours per week</label>
+        <div class="row"><input id="hrs" type="range" min="1" max="40" value="20"><span class="val" id="hrsv">20 hrs</span></div>
+        <div class="result ok" id="hrsr" aria-live="polite"></div>
+      </div>
+    </div>
+      </section>
+      <p class="legal"><b>Educational information only, not legal advice.</b> For official CPT rules and news, rely on U.S. government sources: <a href="https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/students-and-employment" target="_blank" rel="noopener">USCIS</a> and DHS&#39;s <a href="https://studyinthestates.dhs.gov/students/work/applying-for-practical-training" target="_blank" rel="noopener">Study in the States</a> (the SEVP program that oversees CPT). Always confirm with your DSO.</p>
+    </div>
+  </div>
+
+  <div class="composer" id="composer">
+    <form class="box" id="form">
+      <textarea id="q" rows="1" placeholder="Ask about CPT" aria-label="Ask a CPT question"></textarea>
+      <button class="send" id="send" type="submit" aria-label="Send"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M3.4 20.4l17.45-7.48a1 1 0 000-1.84L3.4 3.6a1 1 0 00-1.39 1.16L4 12l-1.99 7.24a1 1 0 001.39 1.16z"/></svg></button>
+    </form>
+    <p class="disc"><b>Educational information only, not legal advice.</b> For official CPT rules and news, rely on U.S. government sources: <a href="https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/students-and-employment" target="_blank" rel="noopener">USCIS</a> and DHS&#39;s <a href="https://studyinthestates.dhs.gov/students/work/applying-for-practical-training" target="_blank" rel="noopener">Study in the States</a> (the SEVP program that oversees CPT). Always confirm with your DSO.</p>
+  </div>
+</main>
+</div>
+<div class="toast" id="toast">Copied</div>
+
+<script>
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const CATS=["Aug 2026 update","Basics","Applying","Recruiters","Hours & OPT","Employers","Mistakes","Strategy"];
+const SRC={
+ bcm:{n:"SEVP Broadcast Message 2608-02 (Aug 24, 2026)",u:"https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf",t:"gov"},
+ sb:{n:"Stony Brook VIS summary of the SEVP guidance",u:"https://www.stonybrook.edu/visa/resources/news-and-events/immigration-policy-updates/cpt-new-guidance.html",t:"school"},
+ pm:{n:"USCIS Policy Manual, Vol. 2, Part F, Ch. 5",u:"https://www.uscis.gov/policy-manual/volume-2-part-f-chapter-5",t:"gov"},
+ reg:{n:"8 CFR 214.2(f)(10), regulation text (NAFSA copy)",u:"https://www.nafsa.org/regulatory-information/8cfr2142f",t:"gov"},
+ combo:{n:"USCIS I-9 Central: Combination Documents",u:"https://www.uscis.gov/i-9-central/form-i-9-acceptable-documents/combination-documents",t:"gov"},
+ m274:{n:"USCIS Handbook for Employers M-274, 7.4.2",u:"https://www.uscis.gov/i-9-central/form-i-9-resources/handbook-for-employers-m-274/70-evidence-of-employment-authorization-for-certain-categories/74-exchange-visitors-and-students/742-f-1-and-m-1-nonimmigrant-students",t:"gov"},
+ opt:{n:"USCIS: Optional Practical Training for F-1 Students",u:"https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/optional-practical-training-opt-for-f-1-students",t:"gov"},
+ emp:{n:"USCIS: Students and Employment",u:"https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/students-and-employment",t:"gov"},
+ irs:{n:"IRS: Foreign student liability for Social Security and Medicare taxes",u:"https://www.irs.gov/individuals/international-taxpayers/foreign-student-liability-for-social-security-and-medicare-taxes",t:"gov"},
+ sits:{n:"Study in the States: Applying for Practical Training",u:"https://studyinthestates.dhs.gov/students/work/applying-for-practical-training",t:"gov"},
+ neu:{n:"Northeastern University CPT policy (school example)",u:"https://international.northeastern.edu/ogs/employment/off-campus-employment/f-1-curricular-practical-training/",t:"school"},
+ adv:{n:"Park Career Toolkit job-search guidance",u:"",t:"advice"},
+ dso:{n:"No single official page covers this. Confirm with your DSO.",u:"",t:"dso"}
+};
+// [myth, fact, category, sourceKey, verbatim quote (optional)]
+const MYTHS=[
+["Any internship I take for credit counts as CPT.","Not anymore. Since August 2026, SEVP says CPT is only for practical training that is required of every student in your program. Credit or course enrollment alone is not enough.","Aug 2026 update","sb","Academic credit or course enrollment alone no longer establishes eligibility."],
+["An elective internship course qualifies for CPT.","Under the August 2026 guidance, an elective internship does not qualify, even if it counts toward your degree.","Aug 2026 update","sb","An internship or research course offered as an elective does not qualify, even if it satisfies a degree requirement."],
+["Students in my program got CPT before, so I will too.","Past approvals don't guarantee anything. Schools must re-check each request against the new guidance.","Aug 2026 update","sb","A department's past approval of CPT for similar students does not establish continued eligibility under this guidance."],
+["Only international students have to do the required training.","If CPT is used, the training must be required of every student in that curriculum, U.S. citizens included.","Aug 2026 update","bcm","all students - foreign and American - are required to participate in practical training if they are enrolled in an established curriculum where practical training is integral."],
+["No company hires international students.","Some companies do, and they focus on strong candidates first. Your skills and results matter more than your visa type.","Strategy","adv"],
+["I should hide my visa status.","Be honest. Hiding it can cause bigger problems later, including a withdrawn offer.","Recruiters","adv"],
+["I can't apply until CPT is approved.","You apply first and get an offer. The DSO's authorization lists your employer, location and dates, so it comes after the offer.","Applying","reg","The DSO must indicate ... the employer and location, and the employment start and end date."],
+["I need CPT before I can interview.","CPT usually comes up after the offer, not before interviews.","Applying","adv"],
+["I should never mention CPT.","Answer honestly if asked about work authorization, but you don't need to bring it up first.","Recruiters","adv"],
+["If a job says 'no sponsorship', I shouldn't apply.","CPT is authorized by your school's DSO, not through an employer visa petition. Some 'no sponsorship' roles still accept CPT. Read carefully or ask.","Recruiters","reg"],
+["CPT has a 20-hour weekly limit set by law.","The rules set no maximum hours for CPT. Your DSO marks it full-time or part-time, and most schools treat 20 hours or less per week as part-time.","Hours & OPT","pm","no maximum number of hours placed on CPT"],
+["Using any CPT will ruin my OPT.","Only 1 year or more of full-time CPT ends post-completion OPT eligibility at the same degree level. Part-time CPT does not.","Hours & OPT","pm","1 year or more of full-time CPT is ineligible for post-completion OPT at the same educational level."],
+["I need an EAD card for CPT.","No. There's no USCIS application and no EAD card. Your DSO-endorsed I-20 is the authorization.","Employers","pm","No application to USCIS for employment authorization or an Employment Authorization Document (EAD) (Form I-766) is required."],
+["Once approved, I can start whenever.","You can't start before the CPT start date on your I-20. Working early is unauthorized employment.","Mistakes","pm","not begin CPT before the CPT start date indicated on the form."],
+["CPT for one company lets me work for another.","CPT is tied to the employer, location and dates your DSO lists. A new employer or second job needs its own authorization.","Mistakes","reg","The DSO must indicate ... the employer and location, and the employment start and end date."],
+["Unpaid internships don't need CPT.","Many schools require CPT for unpaid training too. Ask your DSO before starting any unpaid internship.","Mistakes","neu","CPT can be either paid or unpaid. Even if your experiential learning opportunity is unpaid, you still require CPT authorization."],
+["I can do CPT after I graduate.","CPT happens before your program end date. After you finish, OPT is the usual path.","Hours & OPT","pm","before the student's program end date"],
+["I can do CPT in my first semester.","Usually you need one full academic year first. Graduate programs that require immediate CPT are the exception, and under the 2026 guidance it must be required of all students.","Basics","pm","completed one full academic year"],
+["The employer has to file visa paperwork for CPT.","For CPT, the employer provides the offer and completes Form I-9 using your DSO-endorsed I-20 and I-94.","Employers","combo","The DSO-endorsed Form I-20 with the student’s Form I-94, Arrival/Departure Record, indicating F-1 nonimmigrant status is evidence of employment authorization."],
+["Because I need CPT, companies won't consider me.","Most companies look at skills first and paperwork later.","Strategy","adv"],
+["CPT makes me less competitive.","A weak resume makes you less competitive. CPT alone usually doesn't.","Strategy","adv"],
+["I should wait until summer to apply.","Strong candidates apply 3–6 months early. Summer internships often recruit in fall.","Applying","adv"],
+["I need to explain CPT on my resume.","Leave it off. Your resume shows skills and results.","Recruiters","adv"],
+["My DSO handles everything automatically.","You're responsible for knowing your school's process, forms and deadlines.","Applying","adv"],
+["Recruiters understand CPT.","Many don't. Be ready to explain it in one or two simple sentences.","Recruiters","adv"],
+["If I don't get CPT this semester, my career is over.","Build projects, improve your resume, network and apply early for next term. Also check whether OPT fits your plans.","Strategy","adv"],
+["Only big companies offer CPT roles.","Startups and mid-size firms are often more flexible.","Strategy","adv"],
+["CPT guarantees me a job later.","CPT is temporary. Your performance decides what happens next.","Strategy","adv"],
+];
+// [question, answer html, category, sourceKey, verbatim quote (optional)]
+const FAQ=[
+["What changed with CPT in August 2026?","<p>SEVP sent schools two messages (August 12 and August 24, 2026). CPT is now limited to practical training that is <b>required of every student</b> in your program, U.S. citizens included, where you can't finish the degree without it.</p><ul><li>Elective or optional internships don't qualify</li><li>Credit or course enrollment alone isn't enough</li><li>Past approvals don't guarantee future ones</li></ul><p>Some schools have paused or narrowed CPT. Ask your DSO how this applies to your program before you accept an offer.</p>","Aug 2026 update","bcm","In contrast, CPT fulfills an integral element of an established curriculum and successful completion is contingent on participation in CPT."],
+["Does my program at my school still qualify?","<p>Only your school can say. Ask your academic department and DSO: “Is practical training a required part of my curriculum for every student?” If your degree can be finished without it, CPT likely isn't available. OPT may be the alternative.</p>","Aug 2026 update","sb","If a student could complete the degree through another course or option that doesn't involve practical training, CPT is not authorized."],
+["What is CPT?","<p>Curricular Practical Training lets F-1 students work in a job directly related to their major while studying, when the training is an integral part of their curriculum.</p>","Basics","pm","The CPT must be an integral part of an established curriculum."],
+["Who is eligible for CPT?","<p>Usually you must have completed one full academic year in F-1 status and be enrolled full-time at an SEVP-certified school. Graduate programs that require immediate CPT are the exception. English-language training students are not eligible.</p>","Basics","pm","completed one full academic year"],
+["Is CPT the same as visa sponsorship?","<p>No. Your school's DSO authorizes CPT. Sponsorship usually means an employer files a visa petition, such as H-1B.</p>","Basics","reg"],
+["Who approves CPT: USCIS or my school?","<p>Your school's DSO approves CPT and records it in SEVIS. USCIS is involved in OPT, not CPT.</p>","Basics","pm","No application to USCIS for employment authorization or an Employment Authorization Document (EAD) (Form I-766) is required."],
+["Can I apply for jobs before I get CPT?","<p>Yes. Apply and interview first. The DSO needs your employer, location and dates to authorize CPT, which usually means having an offer.</p>","Applying","reg","The DSO must indicate ... the employer and location, and the employment start and end date."],
+["What should my offer letter include?","<p>Most schools want job title, duties related to your major, start and end dates, hours per week, work location, supervisor contact, and pay or a statement that it's unpaid. Use the checklist in Tools.</p>","Applying","reg","The DSO must indicate ... whether the training is full-time or part-time, the employer and location, and the employment start and end date."],
+["How long does approval take, and does it cost money?","<p>It depends on your school. There's no USCIS application or fee for CPT, but you may pay tuition for the required course.</p>","Applying","pm","No application to USCIS for employment authorization or an Employment Authorization Document (EAD) (Form I-766) is required."],
+["Should I write “Need CPT” on my resume?","<p>No. Your resume should show skills and results. Work authorization is discussed later.</p>","Recruiters","adv"],
+["What if the job says “No sponsorship”?","<p>CPT isn't sponsorship, so some of these roles still accept CPT. Answer application questions honestly.</p>","Recruiters","adv"],
+["How do I answer “Will you now or in the future require sponsorship?”","<p>Answer honestly. For CPT or OPT, “now” is usually no. If you'll need H-1B later, “in the future” is usually yes. Never misrepresent. Ask your DSO if unsure.</p>","Recruiters","adv"],
+["How do I explain CPT to a recruiter?","<p>“I'm authorized to work through my university's Curricular Practical Training program. It doesn't require visa sponsorship, and my school approves it once I have an offer.”</p>","Recruiters","adv"],
+["How many hours can I work on CPT?","<p>The rules set no maximum. Your DSO marks CPT full-time or part-time on your I-20. Most schools treat 20 hours or less per week as part-time, and many only allow full-time during breaks.</p>","Hours & OPT","pm","no maximum number of hours placed on CPT"],
+["Will CPT affect my OPT?","<p>Only if you have 1 year or more of full-time CPT. Then you can't get post-completion OPT at the same degree level. Part-time CPT doesn't count.</p>","Hours & OPT","pm","1 year or more of full-time CPT is ineligible for post-completion OPT at the same educational level."],
+["What is OPT, and is it my backup?","<p>OPT is training directly related to your major that doesn't have to be part of your curriculum. You apply to USCIS for it. With the 2026 CPT limits, OPT may be the better option for many students.</p>","Hours & OPT","opt"],
+["Can I do CPT after graduation?","<p>No. CPT must happen before your program end date. After that, OPT is the usual path.</p>","Hours & OPT","pm","before the student's program end date"],
+["Can I work remotely on CPT?","<p>Your DSO must list the employer and location, so tell your DSO if the job is remote or hybrid. School policies vary.</p>","Hours & OPT","reg","the employer and location"],
+["What does the employer need from me?","<p>For Form I-9, you show your DSO-endorsed I-20 together with your I-94 (and usually your passport). No EAD card.</p>","Employers","combo","The DSO-endorsed Form I-20 with the student’s Form I-94, Arrival/Departure Record, indicating F-1 nonimmigrant status is evidence of employment authorization."],
+["Do I pay taxes on CPT income?","<p>Yes, income tax. F-1 students who are nonresident aliens for tax purposes are generally exempt from Social Security and Medicare taxes. Check the IRS page and your pay stub.</p>","Employers","irs"],
+["Can I get a Social Security Number or travel while on CPT?","<p>Usually yes, but the steps depend on your situation. Ask your DSO for a support letter and travel signature before you go.</p>","Employers","dso"],
+["What happens if I work without authorization?","<p>Working outside your approved employer, dates or hours is a serious status violation that can end your F-1 status. Never start early.</p>","Mistakes","pm","not begin CPT before the CPT start date indicated on the form."],
+["My start date or employer changed. What now?","<p>Tell your DSO before the change. New dates, a new employer or an extension each need an updated authorization.</p>","Mistakes","reg","The DSO must indicate ... the employer and location, and the employment start and end date."],
+["Do I need CPT for an unpaid internship?","<p>Often yes. Many schools require CPT for unpaid training in your field. Ask your DSO first.</p>","Mistakes","neu","CPT can be either paid or unpaid. Even if your experiential learning opportunity is unpaid, you still require CPT authorization."],
+["Where can I see the latest CPT news?","<p>Open <b>CPT news check</b> in the menu. Each story is compared with official SEVP, DHS and USCIS sources and labeled Matches, Contradicts, Not covered or New rule change.</p>","Aug 2026 update","adv"],
+["How do I get CPT updates by email?","<p>Open <b>Get email updates</b> in the menu and subscribe with your school email. You'll only hear from us when official CPT rules change.</p>","Basics","adv"],
+["What if I don't get CPT this semester?","<p>Keep going: build portfolio projects, improve your resume, network, apply early for next term, and ask your DSO about OPT.</p>","Strategy","adv"],
+];
+function srcHTML(k,q){const s=SRC[k];if(!s)return "";const badge={gov:"Official source",school:"School source",advice:"Career advice",dso:"Check with DSO"}[s.t];
+  return `<div class="src ${s.t}">${q?`<blockquote>“${esc(q)}”</blockquote>`:""}<span class="badge">${badge}</span> ${s.u?`<a href="${s.u}" target="_blank" rel="noopener">${esc(s.n)}</a>`:`<span>${esc(s.n)}</span>`}</div>`;}
+
+const $=s=>document.querySelector(s), app=$("#app");
+const ICON_AV=`<svg width="28" height="28" viewBox="0 0 28 28" aria-hidden="true"><defs><linearGradient id="gA" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4285F4"/><stop offset=".55" stop-color="#9B72CB"/><stop offset="1" stop-color="#D96570"/></linearGradient></defs><path d="M14 2c.9 6.2 5.8 11.1 12 12-6.2.9-11.1 5.8-12 12-.9-6.2-5.8-11.1-12-12C8.2 13.1 13.1 8.2 14 2z" fill="url(#gA)"/></svg>`;
+
+// Knowledge base: FAQ + myths as questions
+const KB=[...FAQ.map(x=>({q:x[0],a:x[1],cat:x[2],src:x[3],quote:x[4],type:"faq"})),
+ ...MYTHS.map(x=>({q:x[0],a:`<p>${esc(x[1])}</p>`,cat:x[2],src:x[3],quote:x[4],type:"myth"}))];
+const STOP=new Set("a an the i my me is it to do does can could will would should for of on in at before after what how when who why are be am get have has if or and with about this that there any you your cpt".split(" "));
+const SYN={sponsor:["sponsorship","h-1b","h1b","visa"],sponsorship:["sponsor"],hours:["hours","part-time","full-time","week"],week:["hours"],opt:["opt","post-completion"],unpaid:["unpaid","paid","volunteer"],recruiter:["recruiter","explain","tell","mention","interview"],resume:["resume","cv"],start:["start","early","date","begin"],remote:["remote","hybrid","location"],tax:["tax","taxes","fica","social"],change:["changed","new","2026","august","update"],new:["changed","2026","august"],graduate:["graduation","graduate","after"],apply:["apply","applying","application","offer"],credit:["credit","elective","course","required"],ead:["ead","card","uscis"],employer:["employer","i-9","company"]};
+const tok=s=>s.toLowerCase().replace(/<[^>]+>/g," ").replace(/[’']/g,"").split(/[^a-z0-9-]+/).filter(w=>w.length>1&&!STOP.has(w));
+function expand(ws){const out=new Set(ws);ws.forEach(w=>{for(const k in SYN){if(w===k||w.startsWith(k)||k.startsWith(w)&&w.length>3){SYN[k].forEach(x=>out.add(x));}}});return [...out];}
+KB.forEach(k=>{k.qt=new Set(tok(k.q));k.at=new Set(tok(k.a));});
+function has(set,w){if(set.has(w))return true;for(const x of set){if(w.length>3&&(x.startsWith(w)||w.startsWith(x)&&x.length>3))return true;}return false;}
+function rank(query){const base=tok(query);if(!base.length)return [];const ws=expand(base);
+  return KB.map(k=>{let s=0;ws.forEach(w=>{const orig=base.includes(w)?1:.5;if(has(k.qt,w))s+=2*orig;else if(has(k.at,w))s+=.6*orig;});if(k.type==="faq")s+=.1;return {k,s:s/Math.max(2,base.length)};}).filter(o=>o.s>0).sort((a,b)=>b.s-a.s);}
+
+function srcBlock(k,q){const s=SRC[k];if(!s)return "";const badge={gov:"Official source",school:"School source",advice:"Career advice",dso:"Check with DSO"}[s.t];
+  return `<div class="src ${s.t}">${q?`<blockquote>“${esc(q)}”</blockquote>`:""}<span class="badge">${badge}</span> ${s.u?`<a href="${s.u}" target="_blank" rel="noopener">${esc(s.n)}</a>`:`<span>${esc(s.n)}</span>`}</div>`;}
+const ACTS=`<div class="acts"><button class="ibtn" data-act="copy" aria-label="Copy answer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 00-2-2H6a2 2 0 00-2 2v8a2 2 0 002 2h2"/></svg></button><button class="ibtn" data-act="up" aria-label="Helpful" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M7 11v9H4v-9h3zm0 0l4-8a2 2 0 012 2v4h5.5a2 2 0 012 2.3l-1.2 7A2 2 0 0117.3 20H7"/></svg></button><button class="ibtn" data-act="down" aria-label="Not helpful" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" style="transform:rotate(180deg)"><path d="M7 11v9H4v-9h3zm0 0l4-8a2 2 0 012 2v4h5.5a2 2 0 012 2.3l-1.2 7A2 2 0 0117.3 20H7"/></svg></button></div>`;
+
+// ---- Item 1: meaning-based search (bge-small embeddings, runs in the browser) ----
+const API_BASE=location.origin; // the same Cloudflare Worker serves the site and /api/ask
+const THRESH=0.70, KW_W=0.05;
+let EMB=null, EXTRACT=null, embState="idle";
+function loadEmbeddings(){if(embState!=="idle")return;embState="loading";setSearchPill();
+  Promise.all([fetch("./kb_emb.json").then(r=>r.json()),import("https://cdn.jsdelivr.net/npm/@huggingface/transformers@3")])
+  .then(async([e,T])=>{try{void window.caches.keys}catch(_){T.env.useBrowserCache=false;}EMB=e;EXTRACT=await T.pipeline("feature-extraction",e.model,{dtype:"q8"});embState="ready";setSearchPill();})
+  .catch(err=>{console.warn(err);embState="failed";setSearchPill();});}
+function setSearchPill(){const el=$("#searchMode");if(!el)return;el.textContent={idle:"Keyword search",loading:"Loading smart search…",ready:"Smart search on",failed:"Keyword search"}[embState];el.dataset.state=embState;}
+async function smartRank(query){const kw=rank(query);const kwMap=new Map(kw.map(o=>[o.k,o.s]));
+  if(embState!=="ready")return {mode:"keyword",list:kw.map(o=>({k:o.k,s:o.s})),thr:0.9};
+  const out=await EXTRACT([EMB.prefix+query],{pooling:EMB.pooling,normalize:true});const qv=out.tolist()[0];
+  const dot=d=>{let s=0;for(let j=0;j<d.length;j++)s+=qv[j]*d[j];return s;};const list=KB.map((k,i)=>({k,s:Math.max(dot(EMB.q[i]),dot(EMB.qa[i]))})).sort((x,y)=>y.s-x.s);
+  return {mode:"meaning",list,thr:THRESH};}
+const chips=qs=>qs.length?`<div class="related">${qs.map(q=>`<button class="chipq" data-ask="${esc(q)}">${esc(q)}</button>`).join("")}</div>`:"";
+function kbAnswerHTML(top,r){const k=top.k;const rel=r.list.slice(1,4).filter(o=>o.s>=r.thr-0.1).map(o=>o.k.q);
+  const head=k.type==="myth"?`<span class="verdict myth">Myth</span><p class="mq">“${esc(k.q)}”</p>`:`<p class="mq">${esc(k.q)}</p>`;
+  const how=`<p class="how">${r.mode==="meaning"?"Matched by meaning":"Matched by keywords"} · score ${top.s.toFixed(2)}</p>`;
+  return `${head}${k.type==="myth"?`<span class="verdict fact">Fact</span>`:""}${k.a}${srcBlock(k.src,k.quote)}${how}${ACTS}${chips(rel)}`;}
+function noAnswerHTML(r){const sug=r.list.slice(0,3).map(o=>o.k.q);
+  return `<span class="verdict none">No official answer found</span><p>I couldn't find this in the official sources, so I won't guess. Ask your school's DSO (Designated School Official). They make the final call on CPT.</p>${sug.length?`<p>These might be close:</p>${chips(sug)}`:""}`;}
+// ---- Item 3: grounded Gemini fallback ----
+async function geminiFallback(q){if(!API_BASE)return null;
+  try{const res=await fetch(API_BASE.replace(/\/$/,"")+"/api/ask",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({question:q})});
+    if(!res.ok)return null;return await res.json();}catch(_){return null;}}
+function geminiHTML(g){return `<span class="verdict ai">AI answer · from official text only</span><p>${esc(g.answer)}</p>${g.quotes.map(x=>`<div class="src gov"><blockquote>“${esc(x.quote)}”</blockquote><span class="badge">Quote verified</span> <a href="${x.url}" target="_blank" rel="noopener">${esc(x.name)}</a></div>`).join("")}<p class="how">Written by Gemini using only the saved official pages. Every quote above was checked word for word. Confirm with your DSO.</p>${ACTS}`;}
+async function answerFor(q){const r=await smartRank(q);const top=r.list[0];
+  if(top&&top.s>=r.thr)return kbAnswerHTML(top,r);
+  const g=await geminiFallback(q);if(g&&g.status==="ok")return geminiHTML(g);
+  return noAnswerHTML(r);}
+const recent=[];
+function ask(text){text=text.trim();if(!text)return;show("chat");$("#hello").style.display="none";
+  const t=$("#thread");t.insertAdjacentHTML("beforeend",`<div class="me">${esc(text)}</div>`);
+  const id="b"+Date.now();t.insertAdjacentHTML("beforeend",`<div class="bot" id="${id}"><div class="av"><span class="spark" style="display:inline-flex">${ICON_AV}</span></div><div class="body"><div class="typing"><span></span><span></span><span></span></div></div></div>`);
+  scrollEnd();
+  const t0=Date.now();answerFor(text).then(html=>setTimeout(()=>{const el=document.getElementById(id);el.querySelector(".av").innerHTML=ICON_AV;el.querySelector(".body").innerHTML=html;scrollEnd();},Math.max(0,400-(Date.now()-t0))));
+  if(!recent.includes(text)){recent.unshift(text);renderRecent();}
+  $("#q").value="";grow();}
+function scrollEnd(){const s=$("#scroll");s.scrollTop=s.scrollHeight;}
+function renderRecent(){$("#recent").innerHTML=recent.slice(0,12).map(q=>`<button class="sbtn" data-ask="${esc(q)}" title="${esc(q)}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a8 8 0 01-11.6 7.1L4 20l1-4.6A8 8 0 1121 12z"/></svg><span class="lbl">${esc(q)}</span></button>`).join("");}
+
+// Views
+function show(v){document.querySelectorAll(".view").forEach(x=>x.classList.toggle("on",x.id==="v-"+v));
+  document.querySelectorAll("aside [data-view]").forEach(b=>b.setAttribute("aria-current",b.dataset.view===v?"page":"false"));
+  $("#composer").style.display=v==="chat"?"":"none";app.classList.remove("open");if(v!=="chat")$("#scroll").scrollTop=0;}
+document.addEventListener("click",e=>{
+  const a=e.target.closest("[data-ask]");if(a){e.preventDefault();ask(a.dataset.ask);return;}
+  const v=e.target.closest("[data-view]");if(v){show(v.dataset.view);return;}
+  const g=e.target.closest("[data-go]");if(g){e.preventDefault();show(g.dataset.go);return;}
+  const act=e.target.closest("[data-act]");if(act){const k=act.dataset.act;
+    if(k==="copy"){const txt=act.closest(".body").innerText.replace(/\n{2,}/g,"\n");(navigator.clipboard?navigator.clipboard.writeText(txt):Promise.reject()).then(()=>toast("Copied")).catch(()=>toast("Select the text to copy"));}
+    else{act.parentElement.querySelectorAll('[data-act="up"],[data-act="down"]').forEach(b=>b.setAttribute("aria-pressed",b===act));toast(k==="up"?"Thanks for the feedback":"Thanks. Please also ask your DSO");}}
+});
+$("#newchat").addEventListener("click",()=>{$("#thread").innerHTML="";$("#hello").style.display="";show("chat");$("#q").focus();});
+$("#collapse").addEventListener("click",()=>{if(innerWidth<=860)app.classList.remove("open");else app.classList.toggle("collapsed");});
+$("#menuM").addEventListener("click",()=>app.classList.add("open"));
+$("#scrim").addEventListener("click",()=>app.classList.remove("open"));
+
+// Composer
+const q=$("#q");function grow(){q.style.height="auto";q.style.height=Math.min(q.scrollHeight,160)+"px";$("#send").classList.toggle("ready",!!q.value.trim());}
+q.addEventListener("input",grow);q.addEventListener("focus",loadEmbeddings,{once:true});setTimeout(loadEmbeddings,1500);
+q.addEventListener("keydown",e=>{if(e.key==="Enter"&&!e.shiftKey){e.preventDefault();ask(q.value);}});
+$("#form").addEventListener("submit",e=>{e.preventDefault();ask(q.value);});
+
+// Myths page
+let cat="All";
+$("#chips").innerHTML=["All",...CATS].map(c=>`<button class="chip" aria-pressed="${c==="All"}" data-c="${c}">${c}</button>`).join("");
+$("#chips").addEventListener("click",e=>{const b=e.target.closest(".chip");if(!b)return;cat=b.dataset.c;document.querySelectorAll(".chip").forEach(x=>x.setAttribute("aria-pressed",x===b));renderMyths();});
+function renderMyths(){const list=MYTHS.filter(x=>cat==="All"||x[2]===cat);
+  $("#mythGrid").innerHTML=list.length?list.map(x=>`<article class="card"><span class="verdict myth" style="align-self:flex-start;margin:0">Myth</span><p class="myth-text">${esc(x[0])}</p><span class="verdict fact" style="align-self:flex-start;margin:0">Fact</span><p>${esc(x[1])}</p>${srcBlock(x[3],x[4])}<span class="cat">${x[2]}</span></article>`).join(""):`<p class="sub">No myths in this topic yet. Try Ask a question.</p>`;}
+renderMyths();
+
+// Theme
+const root=document.documentElement;root.dataset.theme=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";
+const setThemeLabel=()=>$("#theme .lbl").textContent=root.dataset.theme==="dark"?"Light mode":"Dark mode";setThemeLabel();
+$("#theme").addEventListener("click",()=>{root.dataset.theme=root.dataset.theme==="dark"?"light":"dark";setThemeLabel();});
+function toast(t){const el=$("#toast");el.textContent=t;el.classList.add("show");setTimeout(()=>el.classList.remove("show"),1400);}
+
+// OPT check
+function ft(){const v=+$("#ft").value;$("#ftv").textContent=v+(v===1?" month":" months");const r=$("#ftr");
+  if(v>=12){r.className="result bad";r.textContent="12+ months of full-time CPT: you would lose OPT eligibility at this degree level. Talk to your DSO before accepting more.";}
+  else if(v>=9){r.className="result warn";r.textContent=`Getting close. ${12-v} month(s) left before you lose OPT eligibility. Plan carefully.`;}
+  else{r.className="result ok";r.textContent=v===0?"No full-time CPT yet. OPT eligibility is not affected.":`OPT eligibility not affected. ${12-v} months of full-time CPT remain before the limit.`;}}
+$("#ft").addEventListener("input",ft);ft();
+
+function hrs(){const v=+$("#hrs").value;$("#hrsv").textContent=v+" hrs";const r=$("#hrsr");
+  if(v<=20){r.className="result ok";r.textContent="Most schools call this part-time (20 hours or less). Part-time CPT does not count toward the 1-year OPT limit.";}
+  else{r.className="result warn";r.textContent="Most schools call this full-time (more than 20 hours). It counts toward the 1-year OPT limit. Many schools allow it only during breaks.";}}
+$("#hrs").addEventListener("input",hrs);hrs();
+
+// Recruiter scripts
+const S=["\"I'm authorized to work through my university's Curricular Practical Training program. It doesn't require visa sponsorship. My school approves it once I have an offer.\"",
+"\"Not for this internship. I'd work through CPT, which my university authorizes. For long-term full-time roles, I may need sponsorship in the future, and I'm happy to discuss that when it's relevant.\""];
+let si=0;$("#swap").addEventListener("click",()=>{si=1-si;$("#s1").textContent=S[si];$("#swap").textContent=si?"Show work-authorization answer":"Show \"Do you need sponsorship?\" answer";});
+function toast(t){const el=$("#toast");el.textContent=t;el.classList.add("show");setTimeout(()=>el.classList.remove("show"),1400);}
+document.querySelectorAll("[data-copy]").forEach(b=>b.addEventListener("click",()=>{const t=$("#"+b.dataset.copy).textContent;
+  (navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(()=>toast("Copied")).catch(()=>toast("Select the text to copy"));}));
+
+// Offer checklist
+const OFFER=["Job title","Duties related to my major","Start and end dates","Hours per week","Work address or 'remote'","Supervisor name and contact","Pay, or states unpaid","Company letterhead and signature"];
+$("#offer").innerHTML=OFFER.map((o,i)=>`<li><label><input type="checkbox" data-i="${i}"> ${o}</label></li>`).join("");
+function offer(){const n=document.querySelectorAll("#offer input:checked").length;$("#obar").style.width=(n/OFFER.length*100)+"%";
+  $("#otext").textContent=n===OFFER.length?"Ready to take to your DSO.":`${n} of ${OFFER.length} included. Ask the employer to add the missing items.`;}
+$("#offer").addEventListener("change",offer);offer();
+
+
+
+// Email signup. Paste your Google Form details here to collect real signups.
+// FORM_ACTION: https://docs.google.com/forms/d/e/<FORM_ID>/formResponse
+const SIGNUP={FORM_ACTION:"https://docs.google.com/forms/d/e/1FAIpQLSfS7K3geN9hThF-_o9gDpB-rroewpcAQ5bfqKcRkiRfyDR37g/formResponse",EMAIL_ENTRY:"entry.67753263",PROGRAM_ENTRY:"entry.1068105876"};
+$("#signup").addEventListener("submit",async e=>{e.preventDefault();
+  const em=$("#em").value.trim(),ok=$("#ok").checked,err=$("#err");err.textContent="";
+  if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em)){err.textContent="Please enter a valid email address.";$("#em").focus();return;}
+  if(!ok){err.textContent="Please check the box to agree to update emails.";return;}
+  const btn=$("#subBtn");btn.disabled=true;btn.textContent="Subscribing…";
+  let saved=false;
+  if(SIGNUP.FORM_ACTION){try{const fd=new FormData();fd.append(SIGNUP.EMAIL_ENTRY,em);if(SIGNUP.PROGRAM_ENTRY)fd.append(SIGNUP.PROGRAM_ENTRY,$("#prog").value);
+    await fetch(SIGNUP.FORM_ACTION,{method:"POST",mode:"no-cors",body:fd});saved=true;}catch(_){}}
+  $("#signupFields").hidden=true;$("#signupDone").hidden=false;
+  $("#doneText").textContent=saved?`We'll email ${em} when CPT rules change.`:`Preview mode: signups aren't saved yet. Once the form is connected, ${em} will get updates.`;
+});
+
+// News check (reads reviewed items from news.json)
+const LABCLS={"Matches official rule":"ok","Contradicts":"bad","Not covered":"warn","New rule change":"new"};
+let NEWS=[],ncat="All";
+function fmtDate(d){const x=new Date(d);return isNaN(x)?d:x.toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric"});}
+function renderNews(){const list=NEWS.filter(n=>ncat==="All"||n.label===ncat);
+  $("#nlist").innerHTML=list.length?list.map(n=>{const title=n.title.replace(new RegExp("\\s+-\\s+"+n.outlet.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")+"$"),"");
+    return `<article class="nitem"><div class="meta"><span class="lab ${LABCLS[n.label]||"warn"}">${esc(n.label)}</span><span>${esc(n.outlet)}</span><span>·</span><span>${esc(fmtDate(n.date))}</span></div>
+    <h3><a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(title)}</a></h3>${n.note?`<p class="note">${esc(n.note)}</p>`:""}
+    <p class="cmp">Compared with <a href="${esc(n.official)}" target="_blank" rel="noopener">the official source</a> · Reviewed ${esc(fmtDate(n.reviewed))}</p></article>`;}).join(""):`<p class="sub">No reviewed stories with this label yet.</p>`;}
+$("#nchips").innerHTML=["All","Matches official rule","Contradicts","Not covered","New rule change"].map(c=>`<button class="chip" aria-pressed="${c==="All"}" data-n="${c}">${c}</button>`).join("");
+$("#nchips").addEventListener("click",e=>{const b=e.target.closest(".chip");if(!b)return;ncat=b.dataset.n;$("#nchips").querySelectorAll(".chip").forEach(x=>x.setAttribute("aria-pressed",x===b));renderNews();});
+fetch("./news.json").then(r=>r.json()).then(d=>{NEWS=d.filter(n=>n.status==="approved");renderNews();}).catch(()=>{$("#nlist").innerHTML='<p class="sub">News could not load. Try again later.</p>';});
+
+// AI quality page
+fetch("./ai_report.json").then(r=>r.json()).then(R=>{const s=R.search_eval;$("#qSet").textContent="Test set: "+s.test_set;
+  $("#qRows").innerHTML=s.rows.map((r,i)=>`<tr${i===s.rows.length-1?' style="font-weight:600"':""}><td>${esc(r.method)}</td><td>${r.top1}%</td><td>${r.top3}%</td><td>${r.off_topic_rejected}</td><td>${r.refused_in_scope}</td></tr>`).join("");$("#qNote").textContent=s.note;
+  if(R.fallback_eval){const f=R.fallback_eval;$("#fb").textContent=`Tested ${f.tested} questions: answered ${f.answered_in_scope} of 2 CPT questions the search missed, refused ${f.refused_off_topic} of 5 off-topic questions, and blocked ${f.quotes_dropped} quote that wasn't found in the official text.`;}
+  if(R.classifier){const c=R.classifier;$("#clf").innerHTML=c.agreement_with_gemini!=null?`<div class="bignum">${c.agreement_with_gemini}%</div><p class="how">Baseline (always the most common label): ${c.majority_baseline}%. ${esc(c.summary)}</p>`:`<p class="how">${esc(c.summary)}</p>`;}}).catch(()=>{});
+fetch("./news.json").then(r=>r.json()).then(d=>{const rev=d.filter(n=>n.ai_label);if(!rev.length)return;const a=rev.filter(n=>n.agreed).length;const art=rev.filter(n=>n.gemini&&n.gemini.input==="article"),hd=rev.filter(n=>!n.gemini||n.gemini.input!=="article");
+  $("#agree").textContent=Math.round(a/rev.length*100)+"%";$("#agreeN").textContent=`${a} of ${rev.length} reviewed stories matched Gemini's label. With full article text: ${art.filter(n=>n.agreed).length} of ${art.length}. Headline only: ${hd.filter(n=>n.agreed).length} of ${hd.length}. Gemini needs the article text to judge well, so headline-only stories are marked low confidence.`;}).catch(()=>{});
+</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+name: CPT news check
+on:
+  schedule:
+    - cron: "0 13 * * *"   # every day at 8 AM Central
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install requests
+      - run: python scripts/fetch_news.py
+      - run: python scripts/fetch_articles.py
+      - run: python scripts/label_news.py
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      - name: Save new stories for review
+        run: |
+          git config user.name "cpt-news-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add review/pending.json
+          git diff --cached --quiet || git commit -m "CPT news: new stories to review"
+          git push
