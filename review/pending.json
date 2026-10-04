@@ -2036,5 +2036,19 @@
       },
       "input": "headline"
     }
+  },
+  {
+    "id": "317af670329e",
+    "status": "pending",
+    "title": "International Students and Scholars Office",
+    "url": "https://www.brandeis.edu/isso//employment/curricular-practical-training/index.html",
+    "outlet": "Brandeis University",
+    "date": "Tue, 25 Aug 2026 16:59:00 GMT",
+    "suggested_label": "Not covered",
+    "label": "Not covered",
+    "official": "https://www.nafsa.org/regulatory-information/8cfr2142f",
+    "matched_rule": null,
+    "note": "",
+    "found": "2026-10-04"
   }
 ]
