@@ -2899,5 +2899,48 @@
     "matched_rule": null,
     "note": "",
     "found": "2026-10-13"
+  },
+  {
+    "id": "81c38cc14956",
+    "status": "pending",
+    "title": "CANCELED: Curricular Practical Training (CPT) Workshop",
+    "url": "https://www.umass.edu/global-affairs/events/canceled-curricular-practical-training-cpt-workshop",
+    "outlet": "umass",
+    "date": "Mon, 21 Sep 2026 14:01:00 GMT",
+    "suggested_label": "Not covered",
+    "label": "Not covered",
+    "official": "https://www.nafsa.org/regulatory-information/8cfr2142f",
+    "matched_rule": null,
+    "note": "",
+    "found": "2026-10-14",
+    "text": " CANCELED: Curricular Practical Training (CPT) Workshop : Office of Global Affairs : UMass Amherst Skip to main content The University of Massachusetts Amherst CANCELED: Curricular Practical Training (CPT) Workshop Please note this event occurred in the past. September 21, 2026 4:00 pm - 5:00 pm ET International Student and Scholar Services Virtual via Zoom This event has been canceled. This Curricular Practical Training (CPT) workshop will provide an overview of eligibility requirements, application steps, timeline, and frequently asked questions. Please review this information before you attend a workshop. The schedule is subject to change. Please join this Zoom link within five minutes of the listed start time. Office of Global Affairs 70 Butterfield Terrace Amherst, MA 01003 (413) 545-2710 Facebook Instagram YouTube LinkedIn University of Massachusetts Amherst \u00a92026 University of Massachusetts Amherst Site policies Privacy Non-discrimination notice Accessibility Terms of use "
+  },
+  {
+    "id": "49e60a45869f",
+    "status": "pending",
+    "title": "DHS looks to charge $70K fee for international student work authorization - Daily Bruin",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcHJQbnN5TTlyTC1iNHBfODVRSXJUNmdXdUNBWVFCZHFlSjQ5WjR5S1RiNG9jbV82V1pXdWs3MlhBRkE0ZWdTZ1diY080aVNIT0J6VnprZXRaZkxNcWdndm9aMFpQQ2FfV185U1dHWkw1UFA1NDJkRjZXM3Z2bWMwRGtSU2YzNVdkaDh2ZmZPNWNGV1NRXzExRFdUMFVmNy1BbHZqeVFfSElFQQ?oc=5",
+    "outlet": "Daily Bruin",
+    "date": "Tue, 13 Oct 2026 23:55:00 GMT",
+    "suggested_label": "Matches official rule",
+    "label": "Matches official rule",
+    "official": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf",
+    "matched_rule": "(required (of|for) all students|integral part|elective|halts?|paus(e|es|ed|ing)|restrict|tighten|narrow|new federal (guidelines|rules|immigration rules)|guidelines|limit(s|ing)? internships|changes curricular|work authorization|eligibility criteria)",
+    "note": "",
+    "found": "2026-10-14"
+  },
+  {
+    "id": "27f4f29d9a2b",
+    "status": "pending",
+    "title": "CPT crackdown threatens America\u2019s student appeal - The PIE News",
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9GLTFyeVY5Qmw1dUNSeE1BQVNsalBxTU1xTktjMWkzVlFicWM2ek5pLTdiMkRtTDg5T0RSTjdNM0hfT2tTZXNFdTNsMlhxUWxvSl9qNHpWY0Z3MlhFaDlhS3dUb0tRNUVfNFI5WEFfbWJqN3U3N1U0cW5EYw?oc=5",
+    "outlet": "The PIE News",
+    "date": "Wed, 14 Oct 2026 12:58:43 GMT",
+    "suggested_label": "Not covered",
+    "label": "Not covered",
+    "official": "https://www.nafsa.org/regulatory-information/8cfr2142f",
+    "matched_rule": null,
+    "note": "",
+    "found": "2026-10-14"
   }
 ]
