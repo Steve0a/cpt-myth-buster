@@ -3098,5 +3098,33 @@
     "matched_rule": null,
     "note": "",
     "found": "2026-10-19"
+  },
+  {
+    "id": "912d2bb01a07",
+    "status": "pending",
+    "title": "UC Berkeley student leaders push UC to challenge ICE over CPT - Daily Cal",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPOWZOeS1lVmxNUmlvT2ZSX2h5T2tEa2h2UFpFcHQ3cmlRTEh3cDBvdjBQdXpXSkdpU2NIdF8wejBkM011dDM1VlNlMWJFVlpwUG1OT3d4dTlVN0hoRWwyRUFjQXhNbENsQzVOWHNRUzJDU0VSTGVnWG45QVVwNWJrSjZCem0yN2N5ZG9VeF9SRkItQWtKS0J4amVtdG1xYnA4NUMtVExtWHFWRXBuclZyVmF0TWlJZGdJNzlWVE95SFhfRkw4M0g1X3RYQ1piMzRNMi1tVU9lSTgzSHZr?oc=5",
+    "outlet": "Daily Cal",
+    "date": "Mon, 19 Oct 2026 12:15:00 GMT",
+    "suggested_label": "Not covered",
+    "label": "Not covered",
+    "official": "https://www.nafsa.org/regulatory-information/8cfr2142f",
+    "matched_rule": null,
+    "note": "",
+    "found": "2026-10-20"
+  },
+  {
+    "id": "b9d9e851372b",
+    "status": "pending",
+    "title": "Trump narrowed work experiences for international students. Here\u2019s what that means for Northeastern. - The Huntington News",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOSzQ3NUJJY3FyRFp4VEsybFo0M01ubU9UWlMzMFlGOWZwal84bXR3V1lfQ1BIU3pqWkFXUjBydXpnaGNYdzFFMlpFdjVyMmRyc2d5bVpVT21Ea1VaOE10clV1RHllLXNwSW1hS05ZdWRtcUtDdzFLU21xUjhPbl8zYXl6SzIxNmNDaHAycWllLTNtMWwwc2VBd0p4cFVLOU02WHlWQzd0VVdmMHUtVjZvSG05Rk9hSlNpTjZ5alFNUGptUFk3WEM2OXJRVjR3MUJldi1NSzV1eXdQaV93?oc=5",
+    "outlet": "The Huntington News",
+    "date": "Tue, 20 Oct 2026 15:36:04 GMT",
+    "suggested_label": "Matches official rule",
+    "label": "Matches official rule",
+    "official": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf",
+    "matched_rule": "(required (of|for) all students|integral part|elective|halts?|paus(e|es|ed|ing)|restrict|tighten|narrow|new federal (guidelines|rules|immigration rules)|guidelines|limit(s|ing)? internships|changes curricular|work authorization|eligibility criteria)",
+    "note": "",
+    "found": "2026-10-20"
   }
 ]
