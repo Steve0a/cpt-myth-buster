@@ -3126,5 +3126,19 @@
     "matched_rule": "(required (of|for) all students|integral part|elective|halts?|paus(e|es|ed|ing)|restrict|tighten|narrow|new federal (guidelines|rules|immigration rules)|guidelines|limit(s|ing)? internships|changes curricular|work authorization|eligibility criteria)",
     "note": "",
     "found": "2026-10-20"
+  },
+  {
+    "id": "0ca85dad296d",
+    "status": "pending",
+    "title": "Trump administration seeks to restrict internships for international students",
+    "url": "https://www.reuters.com/legal/government/trump-administration-restricts-internships-international-students-2026-08-28/",
+    "outlet": "Reuters",
+    "date": "Thu, 27 Aug 2026 19:48:00 GMT",
+    "suggested_label": "Matches official rule",
+    "label": "Matches official rule",
+    "official": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf",
+    "matched_rule": "(required (of|for) all students|integral part|elective|halts?|paus(e|es|ed|ing)|restrict|tighten|narrow|new federal (guidelines|rules|immigration rules)|guidelines|limit(s|ing)? internships|changes curricular|work authorization|eligibility criteria)",
+    "note": "",
+    "found": "2026-10-24"
   }
 ]
