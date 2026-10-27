@@ -3197,5 +3197,19 @@
     "matched_rule": null,
     "note": "",
     "found": "2026-10-26"
+  },
+  {
+    "id": "daa0a0e03dba",
+    "status": "pending",
+    "title": "Reject new restrictions on Emory\u2019s international community - The Emory Wheel",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQM0Q4ekdoRmtCaElvUkdIcDhnZzYwVDNfVmtQZllROTdDRmpVb3BJTFNlYzBRVGgzMnBROHc4QllfT041ZTNrY0o4Q1dHZUtZZGlQMExnX0gwaE1NUXNPNXJud1VqTzFpeFZmck1weDFLNGpCUlg1ZDlqeEdrbXVkZWlfM0Nzb3Rfei1fTXgtUUQ4S3BfSmc2MHBXc295aTg?oc=5",
+    "outlet": "The Emory Wheel",
+    "date": "Wed, 21 Oct 2026 11:04:21 GMT",
+    "suggested_label": "Matches official rule",
+    "label": "Matches official rule",
+    "official": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf",
+    "matched_rule": "(required (of|for) all students|integral part|elective|halts?|paus(e|es|ed|ing)|restrict|tighten|narrow|new federal (guidelines|rules|immigration rules)|guidelines|limit(s|ing)? internships|changes curricular|work authorization|eligibility criteria)",
+    "note": "",
+    "found": "2026-10-27"
   }
 ]
