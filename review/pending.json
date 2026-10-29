@@ -3269,5 +3269,33 @@
     "matched_rule": "(required (of|for) all students|integral part|elective|halts?|paus(e|es|ed|ing)|restrict|tighten|narrow|new federal (guidelines|rules|immigration rules)|guidelines|limit(s|ing)? internships|changes curricular|work authorization|eligibility criteria)",
     "note": "",
     "found": "2026-10-28"
+  },
+  {
+    "id": "fb5657734814",
+    "status": "pending",
+    "title": "UMD international graduate students face new internship limits after federal restrictions - The Diamondback",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPOVI3elBmRkJBWkhFYzFmV2duVjhYZTNrQi1NdFBnOTFSOVdzS2s4UWN0Y2cyTG9RbkpEOTVmWUdxWFhFMldVNlJoX1BnVVJTWnA0Sm02czUwaFRZcVFGMEx6aW5ic0d2TFpCQWl3bWNZZ0J0WC1QT01xa3hNVFg4RG1EZVVlZy1mcW8xanhFQXlZczhQSzVBMkFTaFBsR3R0?oc=5",
+    "outlet": "The Diamondback",
+    "date": "Thu, 29 Oct 2026 04:00:00 GMT",
+    "suggested_label": "Matches official rule",
+    "label": "Matches official rule",
+    "official": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf",
+    "matched_rule": "(required (of|for) all students|integral part|elective|halts?|paus(e|es|ed|ing)|restrict|tighten|narrow|new federal (guidelines|rules|immigration rules)|guidelines|limit(s|ing)? internships|changes curricular|work authorization|eligibility criteria)",
+    "note": "",
+    "found": "2026-10-29"
+  },
+  {
+    "id": "53bc8a5d3071",
+    "status": "pending",
+    "title": "Proposed fees to Optional Practical Training may change postgrad employment for international students - Student Life",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNRm5WRjRUczZnNnYwZ3Q2Y2wwRFBQY0hkSzZrZlJRMC1rTFVYV3owc1UzOUVfSWxfQmlsU0ZnS2J5aEl3TUlWOGdZNTRvWGUyOHhSSElwdXYzWEVFd2JmNV9EdFdJN3IyZFJMUVlUcmNMam03TUt5MWxLaWwydjUxOUZXZ1ZSZnk2WkMzVzc3YXV6X0toTEdjVFI0alhlUXVLeHo1LVBpYmR2LTFJSWxvYWs3dWZQU2NSbjRTanNycVgzVHVsZTVPbG4yb3ZzczJBd29LZUpFUm9EWjA?oc=5",
+    "outlet": "Student Life",
+    "date": "Thu, 29 Oct 2026 16:28:32 GMT",
+    "suggested_label": "Not covered",
+    "label": "Not covered",
+    "official": "https://www.nafsa.org/regulatory-information/8cfr2142f",
+    "matched_rule": null,
+    "note": "",
+    "found": "2026-10-29"
   }
 ]
