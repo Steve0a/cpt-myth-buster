@@ -3311,5 +3311,19 @@
     "matched_rule": null,
     "note": "",
     "found": "2026-10-30"
+  },
+  {
+    "id": "25551db10ffa",
+    "status": "pending",
+    "title": "DHS Further Restricts International Student Internships - The Scarlet",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQb1ZTWVBYdTJfaFVPaDA0MWFRSWx4Q2RfcUlrVVJiRklJUVl3OVFCVmlDdHdXLXBtY2Q5TlhMNDJpd0VCUXdBMDgySmpNOE45clhmRzlyZXNXSE5UdENuTXVUZVU2NWUybi1YNG5DZUNEUGUzWnhLSGF6ejhzQXlUZnlmdFRxbS1FTUloS2xodFF0UERxdzJ6eGdBcU5RUGdN?oc=5",
+    "outlet": "The Scarlet",
+    "date": "Sat, 31 Oct 2026 05:04:05 GMT",
+    "suggested_label": "Matches official rule",
+    "label": "Matches official rule",
+    "official": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf",
+    "matched_rule": "(required (of|for) all students|integral part|elective|halts?|paus(e|es|ed|ing)|restrict|tighten|narrow|new federal (guidelines|rules|immigration rules)|guidelines|limit(s|ing)? internships|changes curricular|work authorization|eligibility criteria)",
+    "note": "",
+    "found": "2026-10-31"
   }
 ]
