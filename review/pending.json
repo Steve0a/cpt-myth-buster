@@ -3367,5 +3367,33 @@
     "matched_rule": null,
     "note": "",
     "found": "2026-11-04"
+  },
+  {
+    "id": "49e3b3a57ae2",
+    "status": "pending",
+    "title": "Confined to campus: Impacts of pausing CPT for international students - The Wellesley News",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQN1NyS2RNeVpVclU4ZVkzUGNGZVBVZDBiRTJMTXlpNUxJS2d1dENNajI2SjNkdWE1SUQ0RktCdDFLM1M5MHBoTU55dWhrbHV3cTVyZV9mdWFHRGtpbkE2aFB1c1ViSm9jOUVPQm1CMEZaam9vOE5UeW1aN2JBa3RjUTRhN2lfV2l2LXhOWkZlbFYzVFFYT1VRcVFWYklma1BCZTNucnhGWUZEbUQwREE?oc=5",
+    "outlet": "The Wellesley News",
+    "date": "Thu, 05 Nov 2026 15:06:38 GMT",
+    "suggested_label": "Matches official rule",
+    "label": "Matches official rule",
+    "official": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf",
+    "matched_rule": "(required (of|for) all students|integral part|elective|halts?|paus(e|es|ed|ing)|restrict|tighten|narrow|new federal (guidelines|rules|immigration rules)|guidelines|limit(s|ing)? internships|changes curricular|work authorization|eligibility criteria)",
+    "note": "",
+    "found": "2026-11-05"
+  },
+  {
+    "id": "cdb3523938db",
+    "status": "pending",
+    "title": "USC must provide more career support to international students - Daily Trojan",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSngxZ1o2VU5WUVF2emFqLUJrQWd1bHpzV0NxeDdIcERMbUdBa1VSTDhXbHNPS2tWdjcySndOSUhMSFp1LXNGcWllQ09DN2NoLXl2cjZSWndTczY1ZU00X1M0MzJmMnN5MndIR3lvVHp2Q2hBUktDdUNuOTRhX3ozUEZ5SjFsZFpZWVVMVWJnOEwtRmg1TlNsWnU3S2tSX2M?oc=5",
+    "outlet": "Daily Trojan",
+    "date": "Thu, 05 Nov 2026 08:04:53 GMT",
+    "suggested_label": "Not covered",
+    "label": "Not covered",
+    "official": "https://www.nafsa.org/regulatory-information/8cfr2142f",
+    "matched_rule": null,
+    "note": "",
+    "found": "2026-11-05"
   }
 ]
