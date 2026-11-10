@@ -3423,5 +3423,33 @@
     "matched_rule": null,
     "note": "",
     "found": "2026-11-09"
+  },
+  {
+    "id": "9bb3a1577626",
+    "status": "pending",
+    "title": "Immigration Lawsuit Challenges DHS For Restricting Student Internships - Forbes",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYWUwb2VDQ2ZFSUlIYlRDVXBSaHdiVGVRLVRvbmVIanJNTGhjTVF3RWtDVG0tYnZ2dUZ2eVdYbzBKY2VUNnRWSzB4Zm8xeGhlMjdsQXQwbGJNQzJrTFdiN0hOZ1NKWm5SbkZfSDdLRXVsYS1hb2V5Mi1pRDM3ODZEQ3B3ZVhqSTB6djFCdFkzS3B2TTVhWEVIWVpnOXlHU3ZRWDFxa3pHQjUxX2dYeHVpTmNvUQ?oc=5",
+    "outlet": "Forbes",
+    "date": "Tue, 10 Nov 2026 15:02:58 GMT",
+    "suggested_label": "Matches official rule",
+    "label": "Matches official rule",
+    "official": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf",
+    "matched_rule": "(required (of|for) all students|integral part|elective|halts?|paus(e|es|ed|ing)|restrict|tighten|narrow|new federal (guidelines|rules|immigration rules)|guidelines|limit(s|ing)? internships|changes curricular|work authorization|eligibility criteria)",
+    "note": "",
+    "found": "2026-11-10"
+  },
+  {
+    "id": "8f44a76c8679",
+    "status": "pending",
+    "title": "ASSU international student roundtable coincides with federal court hearing on internship eligibility - The Stanford Daily",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNcEFEVlhlTF9neEZ5d3ZxTUF1d2JmT2Z2bVVJUzlWc2hWRnpPSDhaYWpyd0ItekczZDNka1JvUFRiOTNnX0FEUEZicjRLVUhmM2VBTkZxYnBjeUlZM0l3c25DaldxSmllVTdBVk8xbEIySFlhQXQtaHczZFFDRkNjUQ?oc=5",
+    "outlet": "The Stanford Daily",
+    "date": "Tue, 10 Nov 2026 12:18:12 GMT",
+    "suggested_label": "Not covered",
+    "label": "Not covered",
+    "official": "https://www.nafsa.org/regulatory-information/8cfr2142f",
+    "matched_rule": null,
+    "note": "",
+    "found": "2026-11-10"
   }
 ]
