@@ -3494,5 +3494,33 @@
     "matched_rule": "(required (of|for) all students|integral part|elective|halts?|paus(e|es|ed|ing)|restrict|tighten|narrow|new federal (guidelines|rules|immigration rules)|guidelines|limit(s|ing)? internships|changes curricular|work authorization|eligibility criteria)",
     "note": "",
     "found": "2026-11-12"
+  },
+  {
+    "id": "d854e8c08865",
+    "status": "pending",
+    "title": "Trump Administration Targets F-1 Students, Creating Turmoil for Them, US Universities, and US Employers - American Immigration Council",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQzJldTJ6cVFhaEpENDdjckRxZWVBYWNZYUpFdTZIa29BYTF6TjlrM3c5ZHBhZi03Nkhhbnh1NVZIR2V2V0I1ZlBtRy1sWUZWTng4elJYbE9iTG5EdlZTRG16ZnR0ajlPWW1tM19vYkFPUHRTZXlSbnQ2QVlnSGxWUmFJQ3hOUDgtb0Jz?oc=5",
+    "outlet": "American Immigration Council",
+    "date": "Thu, 12 Nov 2026 21:07:05 GMT",
+    "suggested_label": "Not covered",
+    "label": "Not covered",
+    "official": "https://www.nafsa.org/regulatory-information/8cfr2142f",
+    "matched_rule": null,
+    "note": "",
+    "found": "2026-11-13"
+  },
+  {
+    "id": "91f3632da012",
+    "status": "pending",
+    "title": "Stanford, Cornell Restrict CPT for F-1 Students in 2026 - KollegeApply News",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQVdfdFlIYjRVZ2d6RXh2X0lMYmM4eTd2cV9Xc0VOMERVTjEyNzhCb2k0RUxpME1vSmdSVWFoQkM0U1Q1YVRub004QmV3cWo0allJSlhLM195SmFhQkh5dExQZEdPVVZ6azBacmdHdFlleDEzRHNHcVFrY1dTUS03eVA3VE5GYWFjaWYtNC1QZUNPQzU0bEZ1UnpSRW1mUDFXNTVRZzJrLXFMSEJONHk1ag?oc=5",
+    "outlet": "KollegeApply News",
+    "date": "Fri, 13 Nov 2026 10:00:54 GMT",
+    "suggested_label": "Matches official rule",
+    "label": "Matches official rule",
+    "official": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf",
+    "matched_rule": "(required (of|for) all students|integral part|elective|halts?|paus(e|es|ed|ing)|restrict|tighten|narrow|new federal (guidelines|rules|immigration rules)|guidelines|limit(s|ing)? internships|changes curricular|work authorization|eligibility criteria)",
+    "note": "",
+    "found": "2026-11-13"
   }
 ]
