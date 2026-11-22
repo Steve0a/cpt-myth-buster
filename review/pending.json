@@ -4269,5 +4269,33 @@
     "matched_rule": null,
     "note": "",
     "found": "2026-11-21"
+  },
+  {
+    "id": "a17dc3b10d38",
+    "status": "pending",
+    "title": "Cornell reopens CPT applications for international students after US court pauses tighter eligibility rules",
+    "url": "https://www.msn.com/en-in/news/other/cornell-reopens-cpt-applications-for-international-students-after-us-court-pauses-tighter-eligibility-rules/ar-AA2hWsVE",
+    "outlet": "Hindustan Times on MSN",
+    "date": "Sat, 21 Nov 2026 22:26:57 GMT",
+    "suggested_label": "Matches official rule",
+    "label": "Matches official rule",
+    "official": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf",
+    "matched_rule": "(required (of|for) all students|integral part|elective|halts?|paus(e|es|ed|ing)|restrict|tighten|narrow|new federal (guidelines|rules|immigration rules)|guidelines|limit(s|ing)? internships|changes curricular|work authorization|eligibility criteria)",
+    "note": "",
+    "found": "2026-11-22"
+  },
+  {
+    "id": "a98d457faa1c",
+    "status": "pending",
+    "title": "US court blocks Trump administration move to restrict internships for international students - The Indian Express",
+    "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPWTVSTnM1VGVhWnVTYzNtM1I5RC1WRmIxSlNKZ0t3OTFadzVDeG16RVpNX1otZUxQSzc5aV83aEtCWUREODdDMGFiQnNxU0hxaXh0N1BxUGZTUDRTX2phQzhXUkYzRHdXbHR2WmpfRVdQOVpUWk83bFhzNzA4YUZjYWxDSm5NM2U5R0xJZVBoM21oMnBwXzgwX2ZUMjEyRHZza3VXQUMyMWJmVnA4bUVNSzdNRXJhczNXcFJ4SDA2ZUhJUGlUSXZVNjEzVkxrLU8taUxQb3hkTW9aNTQzSlhuV3pfODF4bTEtcHkzdTlwcE_SAfcBQVVfeXFMTU5JYW5OTnl5cDIzOFo2cnEwajhVS0ZucHdvWHhicUMwQXYySzhBQjkwMEVIVTg3VmpIOHhpbEh1M3NYZGFYTTJnVi12aVpUUzB2dUxvNEVvS2FMS3VfV1JYdW12cnJFUlZaLVhwbHM4Ri1HdlZacnFhSVNDSk01OUVudTdXZGlQREtFQkNqbTBDUmI1ajh1RTFGZ1Y3dTd1WHpzOW0tNHNlUktCVENWanRjUDYzUWl4NWxFdTN6Vl83UUxMU1h6dGdDU1hFM2I1SEtDYTZ2Zk1qLTB2TUQweVJqYk5XS0hSWE9HdHN4NVctWkw2SkNWSQ?oc=5",
+    "outlet": "The Indian Express",
+    "date": "Fri, 20 Nov 2026 04:00:00 GMT",
+    "suggested_label": "Matches official rule",
+    "label": "Matches official rule",
+    "official": "https://iso.mit.edu/wp-content/uploads/2026/08/2026_0824_SEVP_BroadcastMessage2608-02_CPT_Guidance.pdf",
+    "matched_rule": "(required (of|for) all students|integral part|elective|halts?|paus(e|es|ed|ing)|restrict|tighten|narrow|new federal (guidelines|rules|immigration rules)|guidelines|limit(s|ing)? internships|changes curricular|work authorization|eligibility criteria)",
+    "note": "",
+    "found": "2026-11-22"
   }
 ]
